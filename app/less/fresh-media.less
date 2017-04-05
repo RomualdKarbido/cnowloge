@@ -1,0 +1,205 @@
+.fresh-media {
+	overflow: hidden;
+	padding-bottom: @sp*3;
+	&__wrap {
+		margin: 0 auto;
+		    width: 1150px;
+		    overflow: hidden;
+		    padding-bottom: 30px;
+	}
+	&__big-block {
+		height: 390px;
+		background: red;
+		position: relative;
+		&:before {
+			content: '';
+			background-color: rgba(0, 0, 0, 0.6);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			position: absolute;
+		}
+		&-value {
+			background: @blue;
+			bottom: 110px;
+			color: white;
+			font-family: 'Scada-bold';
+			font-size: 32px;
+			height: 90px;
+			left: 0;
+			//line-height: 90px; 
+			position: absolute;
+			text-align: center;
+			width: 90px;
+			.icon-photo {
+				width: 100%;
+				display: block;
+				margin-top: 14px;
+				font-size: 28px;
+			}
+		}
+		&-info {
+			position: absolute;
+			color: white;
+			left: 115px;
+			top: 185px;
+			padding-left: @sp;
+		}
+		&-title {
+			font-family: 'Scada-bold';
+			font-size: 30px;
+			margin-top: 0;
+		}
+		&-data {
+			margin-top: @sp*3;
+			font-family: 'Scada';
+			font-size: 16px;
+		}
+	}
+	&__mini-block {
+		height: 167px;
+		background: red;
+		position: relative;
+		margin-bottom: 	30px;
+		&:before {
+			content: '';
+			background-color: rgba(0, 0, 0, 0.6);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			position: absolute;
+		}
+		&-value {
+			top: @sp;
+			color: white;
+			font-family: 'Scada';
+			font-size: 16px;
+			left: @sp;
+			position: absolute;
+			.icon-photo {
+				display: none;
+			}
+		}
+		&-info {
+			position: absolute;
+			color: white;
+			left: @sp;
+			bottom: @sp;
+			right: @sp;
+		}
+		&-title {
+			font-family: 'Scada-bold';
+			font-size: 20px;
+			margin-top: 0;
+			line-height: 1;
+			margin-bottom: 0;
+		}
+		&-data {
+			display: none;
+		}
+	}
+	&__middle-block {
+		height: 193px;
+		background: red;
+		position: relative;
+		&:before {
+			content: '';
+			background-color: rgba(0, 0, 0, 0.6);
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			position: absolute;
+		}
+		&-value {
+			top: @sp;
+			color: white;
+			font-family: 'Scada';
+			font-size: 16px;
+			left: @sp;
+			position: absolute;
+			.icon-photo {
+				display: none;
+			}
+		}
+		&-info {
+			position: absolute;
+			color: white;
+			left: @sp;
+			bottom: @sp;
+			right: @sp;
+		}
+		&-title {
+			font-family: 'Scada-bold';
+			font-size: 20px;
+			margin-top: 0;
+			line-height: 1;
+			margin-bottom: 0;
+		}
+		&-data {
+			display: none;
+		}
+		&-video {
+			background: @red;
+			width: 50px;	
+			height: 50px;
+			position: absolute;
+			z-index: 10;
+			right: 0;	
+			top: 0;	
+			text-align: center;
+			font-size: 25px;
+			line-height: 55px;
+			color: white;
+			cursor: pointer;
+
+		}
+	}
+	&__photo-block {
+		height: 167px;
+		background: red;
+		position: relative;
+		background: @blue;
+		margin-bottom: 	30px;
+		
+		&-value {
+			
+			color: white;
+			font-family: 'Scada-Bold';
+			font-size: 32px;
+			left: @sp;
+			text-align: center;
+			line-height: 1;
+			&-text {
+				font-size: 18px;
+				width: 100%;
+				line-height: 1;
+				font-family: 'Scada-Bold';
+				text-align: center;	
+				color: 	white;
+			}
+			.icon-photo {
+				width: 100%;
+				display: block;
+				padding-top: 32px;
+				padding-bottom: 20px;
+				font-size: 28px;
+			}
+			&-files {
+				font-family: 'Scada-Bold';
+				font-size: 32px;
+				left: @sp;
+				text-align: center;
+				line-height: 1;
+			}
+		}
+	}
+
+
+	&__big-value {
+		position: absolute;
+		color: white;
+	}
+} 

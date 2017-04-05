@@ -1,0 +1,156 @@
+.contacts {
+	h2 {
+ 	    font-size: 40px;
+ 	    margin: 0 0 30px;
+ 	    font-family: Scada-Bold;
+ 	    color: #000;
+ 	    border-bottom: 2px #dddfe3 solid;
+ 	    padding-bottom: 40px; 
+	}
+	&__info {
+		margin-bottom: 25px; 
+		overflow: hidden;
+		&-left {
+			float: left;
+			width: 440px; 
+
+		}
+		&-right {
+			float: left;  
+		}
+	}
+	&__tell {
+		font-family: Scada-Bold;
+		color: black;
+		font-size: 28px;
+		margin-bottom: @sp/3;
+		i {
+			color: @blue;
+			font-size: 23px;
+			margin-right: @sp;
+		}
+	}
+	&__mail {
+		font-family: Scada;
+		color: black;
+		font-size: 24px;
+		margin-bottom: @sp;
+		i {
+			color: @blue;
+			font-size: 20px;
+			margin-right: @sp;
+			vertical-align: middle; 
+		}	
+		a {
+			color: black;
+			text-decoration: underline;
+			&:hover {
+				color: @blue;
+				text-decoration: none;
+			}
+		}
+	}
+	&__time {
+		font-family: Scada;
+		color: black;
+		font-size: 20px;
+		margin-bottom: @sp;
+		line-height: 1.3;
+		position: relative;
+		i {
+			color: @blue;
+			font-size: 25px;
+			margin-right: @sp/2;
+			position: absolute;
+			top: 0;
+			left: -35px;
+		}
+		span {
+			color: lighten(black, 40%);
+		}
+	}
+	&_map {
+		width: 100%;
+		height: 330px;
+	}
+	&_photo {
+		width: 100%;
+		height: 330px;
+		background: red;
+		margin-bottom: 135px;
+		background: url(../../img/map-photo.jpg) no-repeat;
+		background-size: cover;
+		position: relative;
+		&-geo {
+			background: white;
+			color: black;
+			position: absolute;
+			padding: 40px 55px;
+			position: absolute;
+			right: 50px;
+			top: 50px;
+			font-size: 24px;
+			font-family: scada;
+			line-height: 28px;
+		}
+		&-metro {
+			font-family: Scada-Bold;
+			margin-top: @sp;
+			line-height: 33px;
+			.icon-metro {
+				background: url(../../img/metro-icon.png) no-repeat;
+				width: 33px;
+				height: 33px;
+				display: inline-block;
+				vertical-align: bottom;
+			}
+		}
+	}
+} 
+
+// без левого меню
+.contacts__notMenu {
+	.contacts {
+		&__info {
+			margin-bottom: @sp*3;
+			&-right {
+				float: right;
+			}
+			&-left {
+				width: 405px;
+				&_geo {
+					position: relative;
+					float: left;
+					width: auto;
+					&-text {
+						font-size: 20px;
+						font-family: Scada;
+						line-height: 1.3;
+					}
+					.contacts_photo-metro {
+						font-family: Scada-Bold;
+						margin-top: 10px;
+						line-height: 33px;
+						font-size: 22px;
+					}
+					.icon-buld {
+						color: #01aeea;
+						font-size: 25px;
+						margin-right: 7.5px;
+						position: absolute;
+						top: 0;
+						left: -35px;
+					}
+				}
+			}
+		}
+
+		&_photo {
+			width: 330px;
+			margin-top: -330px;
+			&-geo {
+				display: none;
+			}
+		}
+	}
+}

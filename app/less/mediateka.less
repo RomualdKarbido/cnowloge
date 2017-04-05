@@ -1,0 +1,131 @@
+.mediateka {
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 110px;
+		.clearfix;  
+	}
+	
+	&__h1 {
+		margin: 0;
+		font-family: 'Scada-Bold';
+		font-size: 40px;
+		padding-bottom: 30px; 
+		line-height: 1;
+	}
+	&__item {
+		background: white; 
+		margin-bottom: @sp*2;
+		position: relative;
+		
+	}
+	&__img {
+		height: 200px;
+		position: relative;
+	}
+	&__info {
+		height: 230px;
+		.clearfix; 
+	}
+	&__data {
+		float: left;
+		margin-left: 10px;
+		margin-bottom: @sp/2;
+		font-family: 'Scada';
+		color: #9b9b9b;
+		font-size: 14px;
+		i {
+			margin-right: @sp/3;
+			color: #d3d3d3;
+			font-size: 16px;
+			vertical-align: sub;
+			display: inline-block;
+			float: left;
+		}
+		span {
+			display: inline-block;
+			float: left;
+			margin-top: 	-1px;
+
+		}
+	}
+	&__category {
+		float: left;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		text-transform: uppercase;
+		font-family: 'Scada';
+		color: #9b9b9b;
+		max-width: 152px;
+		font-size: 14px;
+		display: inline-block;	
+		float: left;
+		margin-top: 	-1px;
+
+	}
+	&__footer {
+		background: white;
+		padding: 20px 15px;
+		height: 165px;
+
+	} 
+	&__title {
+		font-family: 'Scada-bold'; 
+		display: block;
+		color: black;
+		height: 35px;
+		font-size: 15px;
+		line-height: 1.2;
+		overflow: hidden;
+		margin-bottom: 20px;
+		&:hover {
+			
+			color: black;
+		}
+	}
+	&__value {
+		background: @blue;
+		top: 0px;
+		color: white;
+		font-family: 'Scada-bold';
+		font-size: 28px;
+		height: 85px;
+		right: 0;
+		z-index: 10;
+		//line-height: 90px; 
+		position: absolute;
+		text-align: center;
+		width: 60px;
+		.icon-photo, .icon-play {
+			width: 100%;
+			display: block;
+			margin-top: 14px;
+			font-size: 28px;
+		}
+		&_video {
+			background: @red;
+		}
+	}
+	&__menu {
+		h3 {
+			color: #a1a1a1;
+			font-family: 'Scada';
+			font-size: 14px;
+			margin: 0;
+			padding: 5px 0 @sp 0;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		.right-menu__title {
+			font-size: 20px;
+			color: #eb5427;
+			font-family: Scada-Bold!important;
+			line-height: 1.2;
+			margin: 0;
+			padding: 5px 0 15px 0;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,68 @@
+.breadcrumbs {
+	margin-bottom: 20px;
+	background: 
+	.clearfix;
+	.breadcrumb {
+		&-item {
+			color: darken(@gray, 40%);
+			position: relative;
+			margin-right: @sp*2;
+			font-family: 'Scada';
+			font-size: 15px;
+			&:after {
+				content: '';
+				background: url('@{imageBase}/st-r.svg') no-repeat;
+				height: 10px;
+				width: 10px;	
+				position: absolute;
+				right: -25px;
+				top: 5px;
+			}
+			&:last-child:after {
+				display: none;
+			}
+			&:hover {
+				text-decoration: none;
+				color: @blue;
+			}
+		}
+	}
+}
+#DeltaBreadcrumbDropdown {
+	background: @gray;
+	display: block;
+	padding-bottom: 20px;
+
+	.breadcrumb {
+		margin: 0 auto;
+		width: 1150px;
+		&-item {
+			color: darken(@gray, 40%);
+			position: relative;
+			margin-right: @sp*2;
+			font-family: 'Scada';
+			font-size: 15px;
+			
+			&:before {
+				content: '';
+				background: url(@{fontsBase}/st-r.svg) no-repeat;
+				height: 10px;
+				width: 10px;	
+				position: absolute;
+				left: -20px;
+				top: 5px;
+			}
+			
+			&:hover {
+				text-decoration: none; 
+				color: @blue;
+			}
+			&-prev {
+				&:before {
+					content: '';
+					display: none;
+				}
+			}
+		}
+	}
+}

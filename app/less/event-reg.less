@@ -1,0 +1,58 @@
+.event-reg {
+	text-align: center;
+	&__top {
+		font-size: 24px;
+		font-family: 'Scada-bold';
+		margin-bottom: @sp;
+		color: @red;
+		text-align: center;
+		.icon-run-man {
+			color: @red;
+			font-size: 20px;
+			margin-right: @sp/3;
+		}
+		span {
+			font-size: 16px;
+			color: darken(@gray, 40%);
+			font-family: 'Scada';
+			span {
+				font-size: 24px;
+				font-family: 'Scada-bold';
+			}
+		}
+	}
+	&__bot {
+		display: inline-block;
+		color: @blue;
+		text-align: center;
+		font-family: 'Scada';
+		font-size: 16px;
+		margin-top: @sp;
+		transition: all 0.2s;
+		&:hover {
+			text-decoration: none;
+		}
+		.icon-add-label {
+			font-size: 18px;
+			margin-right: @sp/3;
+			vertical-align: text-top;
+		}
+	}
+	&__footer {
+		text-align: left;
+		margin-bottom: @sp*5;
+		margin-top: -@sp;
+		&-item {
+			color: @red;
+			font-size: 24px;
+			font-family: 'Scada-bold';
+			display: inline-block;
+			margin: 0 20px 0 0 ;
+			i {
+				color: darken(@gray, 25%);
+				font-size: 21px;
+
+			}
+		}
+	}
+}

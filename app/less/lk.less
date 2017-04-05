@@ -1,0 +1,254 @@
+.lk {
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 50px;
+		.clearfix;  
+	}
+	&__h2 {
+		margin: 0;
+		font-family: 'Scada-Bold';
+		font-size: 40px;
+		padding-bottom: 30px; 
+		line-height: 1;
+		&_elect {
+			i {
+				color: @red;
+				font-size: 35px;
+				margin-right: @sp;
+			}
+		}
+		span {
+			color: @red;
+
+		}
+	}
+	&__userinfo {
+		background: white;
+		padding: 40px;
+		margin-bottom: 55px;
+		position: relative;
+		.clearfix;
+		&-edit {
+			background: @blue;
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 0;
+			color: white;
+			text-align: center;
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			font-size: 19px;
+			cursor: pointer;
+			transition: all 0.2s;
+			&:hover {
+				background: lighten(@blue, 10%);
+			}
+		}
+		&-title {
+			color: darken(@gray, 40%);
+			font-family: Scada-Bold;
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+		&-comment {
+			margin-left: 220px; 
+			margin-top: @sp*2;
+			&-quantity {
+				display: inline-block;
+				background: @green;
+				color: white;
+				height: 40px;
+				width: 40px;
+				line-height: 40px;
+				font-family: Scada-Bold;
+				font-size: 24px;
+				text-align: center;
+				border-radius: 50%;
+				margin-right: @sp/2;
+				vertical-align: middle;
+			}
+			a {
+				color: @green;
+				font-family: Scada;
+				font-size: 16px;
+				text-decoration: none;
+				border-bottom: 1px solid;
+				&:hover {
+					text-decoration: none;
+				}
+
+			}
+		}
+	}
+	&__userphoto {
+		width: 180px;
+		height: 180px;
+		display: block;
+		position: relative;
+		background: black;
+		background-size: cover !important;
+		float: left;
+		&:before {
+			content:'';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 40px;
+			height: 40px;
+			background: url(../../img/blue-angle.svg);
+			
+		}
+		&:after{
+			content:'';
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 40px;
+			height: 40px;
+			background: url(../../img/red-angle.svg);
+		}
+	}
+	&__name {
+		margin-left: 220px; 
+	    color: #000;
+	    font-family: Scada-Bold;
+	    font-size: 22px;
+	    text-transform: uppercase;
+	    margin-top: 30px;
+	    margin-bottom: 25px;
+	    &_lecturer {
+	    	margin-top: 0;
+	    }
+	}
+	&__subscribe {
+		margin-left: 220px;
+		i {
+			font-size: 22px;
+			margin-right: @sp/3;
+			vertical-align: sub;
+		}
+	}
+	&__contactblock {
+		margin-top: 30px;
+		font-family: 'Scada';
+		font-size: 16px;
+		i {
+			position: absolute;
+			left: -30px;
+			top: 3px;
+			font-size: 18px;
+		}
+		&_lecturer {
+			margin-top: @sp/3;
+		}
+		&-btn {
+			margin-left: -@sp*2;
+			i {
+				margin-right: @sp/3;
+			}
+			.btn {
+				margin-top: @sp/3 !important;
+			}
+		}
+	}
+	&__tell {
+		display: block;
+		position: relative;
+		margin-bottom: 12px;
+		color: black; 
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&__mail, &__skype  {
+		display: block;
+		position: relative;
+		margin-bottom: 12px;
+		color: black;
+		text-decoration: underline;
+	}
+	&__elect {
+		margin-bottom: @sp*2;
+		.clearfix;
+		.activities-calendar__return {
+			margin-right: 0;
+			&-link {
+				line-height: 30px;
+
+			}
+		}
+		&_lecturer {
+			margin-bottom: 0;
+		}
+	}
+	&__done {
+		.clearfix;
+		.activities-calendar__return {
+			margin-right: 0;
+			&-link {
+				line-height: 30px;
+
+			}
+		}
+	}
+	&__position {
+		margin-left: 220px; 
+		&-text {
+			font-family: 'Scada';
+			font-size: 16px;
+		}    
+	}
+	&__honors {
+		margin-left: 220px; 
+		margin-top: @sp*2;
+		&-item {
+			font-family: 'Scada';
+			font-size: 16px;
+			color: black;
+			padding-right: @sp*2;
+			span {
+				font-family: 'Scada-bold';
+				font-size: 18px;
+				margin-right: 7px;
+				width: 45px;
+				display: inline-block;
+			}
+		}
+	}
+	&__rezult {
+		margin-left: 0; 
+		margin-top: @sp*2;
+		i {
+			position: absolute;
+			left: -30px;
+			top: 7px;
+			font-size: 18px;
+			color: @blue;
+			font-size: 20px;
+		}
+		&-item {
+			display: block;
+			position: relative;
+			color: black; 
+			font-family: 'Scada';
+			font-size: 16px;
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+			span {
+				font-size: 24px;
+				font-family: 'Scada-bold';
+				display: inline-block;
+				min-width: 25px;
+				margin-right: @sp/2;
+			}
+		}
+
+	}
+
+	
+}

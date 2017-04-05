@@ -1,0 +1,120 @@
+.one-news {
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 110px;
+		.clearfix;  
+	}
+	&__h1 {
+		margin: 0;
+		font-family: 'Scada-Bold';
+		font-size: 40px;
+		padding-bottom: 30px; 
+		line-height: 1;
+	}
+	&__datatime {
+		font-size: 20px;
+		color: @red;
+		font-family: 'Scada-bold';
+		&-data {
+			padding-left: @sp*2;
+			position: relative;
+			i {
+				position: absolute;
+				left: 0px;
+				top: 3px;
+				height: 20px;
+			}
+		}
+	}
+	&__info {
+		margin-bottom: @sp*2;
+		//height: 100px;
+		.clearfix;
+	}
+	&__geo {
+		color: black;
+		position: relative;
+		font-family: 'Scada';
+		font-size: 18px;
+		i {
+			position: absolute;
+			left: -30px;
+			top: 3px;
+			height: 20px;
+			color: darken(@gray, 30%);
+			font-size: 20px;
+		}
+	}
+	&__text, &__text-before {
+		font-family: 'Scada';
+		font-size: 15px;
+		p {
+			margin-bottom: @sp*2;
+		}
+		h4 {
+			font-size: 20px;
+			font-family: 'Scada-Bold';
+			margin-bottom: @sp*2;
+		}
+		ul {
+			margin-bottom: @sp*3;
+			li {
+				list-style-type: none;
+				margin-bottom: 10px;
+				&:before {
+  					content:"\2014\0020";
+  					padding-right: 10px;
+				}
+				a {
+					color: black;
+					border-bottom: 1px solid;
+					&:hover {
+						text-decoration: none;
+						color: @blue;
+					}
+				}
+			}
+		}
+	}
+	&__text-before {
+		margin-top: @sp*4;
+	}
+	&__files-list {
+		li {
+
+			list-style-type: none;
+			margin-bottom: 10px;
+			&:before {
+				content:"";
+				display: none;
+			}
+			a {
+				color: black;
+				border-bottom: 1px solid;
+			}
+		}
+	}
+	&__word {
+		margin-left: 30px;
+		&:before {
+			content:"";
+			width: 20px;
+			height: 20px;
+			background: url(../../img/file-w.svg) no-repeat;
+			display: block;
+			position: absolute;
+		}
+	}
+	&__pdf {
+		margin-left: 30px;
+		&:before {
+			content:"";
+			width: 20px;
+			height: 20px;
+			background: url(../../img/file-pdf.svg) no-repeat;
+			display: block;
+			position: absolute;
+		}
+	}
+}

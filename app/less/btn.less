@@ -1,0 +1,181 @@
+.btn {
+	&:focus {
+		outline: none;
+	}
+	&__left {
+		width: auto !important;
+		display: inline-block;
+	}
+	&__right {
+		width: auto !important;
+		display: block;
+		float: right;
+		margin-left: 10px !important;
+	}
+	&__center {
+		width: 100% !important;
+		display: inline-block;
+		text-align: center !important;
+		padding-left: 0 !important ;
+		padding-right: 0 !important;
+	}
+
+	&-header {
+		width: 100%;
+		border: 2px solid @gray-light;
+		background: none;
+		padding: 11px 0;
+		text-align: center;	
+	}
+	&__blue {
+		color: white;
+		text-align: center;
+		background: @blue;
+		width: auto;
+		margin: 0 auto;
+		display: block;
+		text-transform: uppercase;
+		font-size: 20px;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 25px;
+		text-decoration: none;
+		font-family: 'Scada-bold';
+		border: none;
+		&:hover {
+			text-decoration: none;
+			color: white;
+		}
+		&:visited {
+			color: white;
+			text-decoration: none;
+		}
+		&_mini {
+			color: white;
+			text-align: center;
+			background: @blue;
+			width: auto;
+			border: none;
+			padding: 5px 15px;
+			&:focus {
+				 outline: none;
+			}
+		}
+	}
+	&__gray {
+		color: white;
+		text-align: center;
+		background: #4f5c64;
+		width: auto;
+		margin: 0 auto;
+		display: block;
+		text-transform: uppercase;
+		font-size: 20px;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 25px;
+		text-decoration: none;
+		font-family: 'Scada-bold';
+		border: none;
+		&:hover {
+			text-decoration: none;
+			color: white;
+		}
+		&:visited {
+			color: white;
+			text-decoration: none;
+		}
+	}
+	
+
+	&-win-login {
+		width: 280px;
+		line-height: 40px;
+		margin: 0 auto 35px;
+		display: block;
+		&:hover {
+			text-decoration: none;
+			color: white;
+		}
+	}
+	&-filter {
+		line-height: 38px;
+		//margin: 0 auto 35px;
+		display: block;
+		height: 40px;
+		display: inline-block;
+		padding: 0 25px;
+		float: left;
+		font-size: 17px;
+	}
+	&__ring {
+		width: 100%;
+		border-radius: 32px;
+		background: @gray;
+		border: 0;
+		margin-bottom: @sp/3;
+		height: 32px;
+		line-height: 32px;
+		text-align: left;
+		padding: 0 @sp;
+		font-family: 'Scada-bold';
+		font-size: 17px;
+		color: darken(@gray, 60%);
+		i {
+			margin-right: @sp;
+			margin-top: 3px;
+			vertical-align: middle;
+		}
+		&_blue {
+			background: @blue;
+			color: white;
+		}
+		&_big {
+			height: 45px;
+			line-height: 45px;
+			text-transform: uppercase;
+			padding: 0 @sp*2;
+			font-size: 18px;
+		}
+	}
+
+	&__red {
+		color: white;
+		text-align: center;
+		background: @red;
+		width: auto;
+		margin: 0 auto;
+		display: block;
+		text-transform: uppercase;
+		font-size: 20px;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 25px;
+		text-decoration: none;
+		font-family: 'Scada-bold';
+		&:hover {
+			text-decoration: none;
+		}
+		&_big {
+			height: 45px;
+			line-height: 45px;
+			text-transform: uppercase;
+			padding: 0 @sp*2;
+			font-size: 18px;
+			background: @red;
+			color: white;
+		}
+		&_mini {
+			color: white;
+			text-align: center;
+			background: @red;
+			width: auto;
+			border: none;
+			padding: 5px 15px;
+			&:focus {
+				 outline: none;
+			}
+
+		}
+	}
+}

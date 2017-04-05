@@ -1,0 +1,89 @@
+.tags {
+	&__tag {
+		background: @gray;
+		font-size: 14px;  
+		padding: 2px @sp/2;
+		text-decoration: none;
+		font-family: 'Scada';
+		color: #a1a1a1;
+		line-height: 1.8;
+		&:hover {
+			text-decoration: none;
+		}
+		&.active {
+			background: @blue;
+			color: white;
+		}
+		&-all {
+			font-size: 20px;
+			color: #a1a1a1; 
+			height: 26px;
+			vertical-align: middle;
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+			&:hover {
+				text-decoration: none;
+				color: darken(#a1a1a1, 30%);
+			}	
+			&:focus {
+				text-decoration: none;
+			}
+		}
+	}
+	&__modal {
+		background: white;
+		padding: 10px @sp @sp 17px;
+		position: absolute;
+		top: 20px;
+		left: 0;
+		-webkit-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.24);
+		-moz-box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.24);
+		box-shadow: 0px 0px 31px -7px rgba(0,0,0,0.24);
+		border-radius: 4px;
+		width: 300px;
+		line-height: 1.25;
+		display: none;
+		z-index: 500;
+
+		.tags__tag {
+			margin-top: 0;
+			margin-bottom: 0;
+			line-height: 1;
+			margin-left: -2px;
+			white-space: nowrap;
+		}
+		&.active {
+			display: block;
+		}
+
+
+	}
+}
+.tegs__white {
+	position: relative;
+	i {
+		color: @blue;
+		float: left;
+		display: inline-block;
+		padding-right: @sp/2;
+		font-size: 20px;
+		margin-top: 3px;
+	}
+	.tags__tag {
+		background: white;
+		font-size: 15px;  
+		padding: 3px @sp/2;
+		text-decoration: none;
+		font-family: 'Scada';
+		color: #a1a1a1;
+		line-height: 1.8;
+		&:hover {
+			text-decoration: none;
+		}
+		&.active {
+			background: @blue;
+			color: white; 
+		}
+	}
+}

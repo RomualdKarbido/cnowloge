@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="../css/css/style.css" rel="stylesheet">
+	<link href="../fonts/icon/style.css" rel="stylesheet"> 
+
+	<script src="../scripts/jquery-1.11.1.min.js"></script>
+	<link href="../content/bootstrap-3.3.7/dist/css/bootstrap.css" rel="stylesheet">
+	<script src="../scripts/jquery.easydropdown.js"></script>
+
+	
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header gray-back"> 
+		<div class="header__content">
+			<div class="row">
+				<div class="col-xs-3">
+					<a href="#" class="header__logo"></a>
+				</div>
+				<div class="col-xs-9">
+					<div class="header__top">
+						<div class="header__top-sity">
+							Москва <i class="icon-doun"></i>
+							<div class="regions-m_mini">
+								<span class="regions-m_mini-region">Ваш регион:</span>
+								<span  class="regions-m_mini-name">Москва или подмосковье? </span> 
+								<div class="regions-m_mini-btn">
+									<button class="btn__blue_mini">Да</button>
+									<button class="btn__red_mini">Изменить</button> 
+								</div>
+								
+							</div>
+						</div>
+
+
+
+						<script> 
+							$(document).ready(function(){
+								$('.header__top-sity').click(function(){
+								 	$('.regions-m_mini').toggleClass('active') 
+								 });
+							});
+						</script>
+
+
+						<div class="header__top-search">
+							<input type="text" name="" id="" class="input input_search" placeholder="Поиск по сайту">
+							<button class="header__top-search-btn"><i class="icon-magnifier"></i></button>
+						</div>
+						<div class="header__top-spectacles">	
+						<a href="#" ><i class="icon-spectacles"></i></a>
+						</div>
+						<div class="header__top-authorization">
+							<a href="#" class="header__top-authorization-link"><i class="icon-castle"></i> Личный кабинет</a>
+						</div>
+						<div class="header__top-btn">
+							<button class="btn btn-header">Написать нам</button>
+						</div>
+
+
+					</div>
+					<div class="header__menu">
+						<ul class="header__menu-list">
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Календарь мероприятий</a></li>
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Новости</a></li>
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Об обществе</a></li>
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Медиатека</a></li>
+							<li class="header__menu-item"><a href="#" class="header__menu-link">Вебинары</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- .header-->
+
+
+	<span id="DeltaBreadcrumbDropdown">
+        <div class="breadcrumb">
+            <span>
+            	<span>
+            		<a class="breadcrumb-item breadcrumb-item-prev" href="/Pages/Main.aspx">Портал Знание</a> 
+            	</span>
+            	<span></span>
+            	<span>
+            		<a class="breadcrumb-item" href="/news/Pages/default.aspx">Новости</a>
+            	</span>
+            	<span></span>
+            	<span></span>
+            </span>
+        </div>
+	</span>	
+
+
+<div class="question-answer gray-back">
+	<div class="all-events__wrap">
+		<h1 class="all-events__h1">Вопрос-ответ</h1>
+
+		<div class="row">
+			<div class="col-xs-12">
+			<div class="question-title">
+				<i class="icon-doun"></i>
+				Написать вопрос
+			</div>
+
+			<form action="" method="POST" class="all-events-white-top__form">
+			<div class="question-answer__white-top">
+				<div class="question-answer__white-top-wrap">
+					<div class="question-answer__white-top__left-block">
+						<input class="question-answer__white-top__input" type="text" placeholder="Ваше имя"/>
+						<input class="question-answer__white-top__input" type="text" placeholder="E-mail"/>
+						
+					</div>
+					<div class="question-answer__white-top__right-block">
+						<textarea name="textarea" placeholder="Ваш вопрос"></textarea>
+					</div>
+				</div>
+				<span class="question-answer__white-top__text">Все поля обязательны для заполнения</span>
+				<button class="btn btn__right btn__blue" type="submit" class="">Отправить вопрос</a>
+			</div>
+			</form>
+
+			<div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div><div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div><div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div><div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div><div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div><div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div>
+			<div class="question-answer__box">
+				<div class="question-answer__box-blue">
+					<i class="icon-qest"></i>
+					<div class="question-answer__box-question">Вопрос задан</div>
+					<div class="question-answer__box-data">15.02.2017</div>
+				</div>
+				<div class="question-answer__box-content">
+					<div class="question-answer__box-title">
+						Добрый день. Каким образом можно записаться к вам в лекторы?
+					</div>
+					<div class="question-answer__box-author">Автор вопроса: Анна</div>
+					<div class="question-answer__box-answer">
+					<i class="icon-enter"></i>
+					Анна, спасибо за вопрос. Для того, чтобы стать лектором, вам необходимо в подвале сайта нажать на ссылку “Хочу стать лектором” и заполнить открывшуюся форму.</div>
+				</div>
+			</div>
+
+				<div class="pagination__wrap">
+					<nav aria-label="Page navigation">
+					  <ul class="pagination">
+					    <li class="pagination__item pagination__item_no-back pagination__item_off">
+					      <a href="#" aria-label="Previous" class="pagination__link">
+					       	<i class="icon-st-left"></i>
+					      </a>
+					    </li>
+					    <li class="pagination__item active"><a href="#" class="pagination__link">1</a></li>
+					    <li class="pagination__item"><a href="#" class="pagination__link" >2</a></li>
+					    <li class="pagination__item"><a href="#" class="pagination__link" >3</a></li>
+					    <li class="pagination__item"><a href="#" class="pagination__link" >4</a></li>
+					    <li class="pagination__item"><a href="#" class="pagination__link" >5</a></li>
+					    <li class="pagination__item pagination__item_no-back"><a href="#" class="pagination__link" >...</a></li>
+					    <li class="pagination__item"><a href="#" class="pagination__link" >165</a></li>
+					    <li class="pagination__item pagination__item_no-back">
+					      <a href="#" aria-label="Next" class="pagination__link">
+					        <i class="icon-st-right"></i>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>
+
+				</div>
+
+			
+				
+			</div>
+				
+				
+
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="footer__before"></div>
+
+</div>
+
+<footer class="footer">
+	<div class="footer__wrap">
+		<div class="row">
+			<div class="col-xs-3">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">Об обществе</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Структура и органы управления</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Документы</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Руководство</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">История</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+				</ul>
+
+			</div>
+			<div class="col-xs-3">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">Календарь мероприятий</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Вебинары</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Интерактивная карта</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Новости</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Фотогалерея</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Видеозаписи лекций</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link"><i class="icon-castle"></i> Личный кабинет</a></li>
+					<li class="footer__item"><a href="#" class="footer__link"><i class="icon-mail"></i> Написать нам</a></li>
+					<li class="footer__item">&nbsp</li>
+					<li class="footer__item"><a href="#" class="footer__link">Вакансии в обществе «Знание»</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Поиск мероприятия</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Вопросы и ответы</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<div class="footer__right">
+					<div class="footer__logo"></div>
+					<ul class="footer__list footer__list_right">
+						<li class="footer__item"><a href="#" class="footer__link footer__link_spectacles">Версия для слабовидящих</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Правовая информация</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Технические сведения</a></li>
+ 					</ul>
+
+
+				</div>
+
+			</div>
+		</div>
+		<div class="footer__bottom"></div>	
+		<div class="row">
+			<div class="col-xs-6"><div class="footer__copy">© 1998-2016 Общество «Знание» России</div></div>
+			<div class="col-xs-6">
+				<div class="footer__soc">
+				<a href="#"><i class="icon-vk"></i></a>
+				<a href="#"><i class="icon-facebook"></i></a>
+				<a href="#"><i class="icon-tvitter"></i></a>
+				<a href="#"><i class="icon-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer><!-- .footer -->
+
+</body>
+</html>

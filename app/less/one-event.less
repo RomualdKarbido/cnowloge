@@ -1,0 +1,200 @@
+.one-event { 
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 110px;
+		.clearfix;  
+	}
+	&__search {
+		background: url(../../img/search-img.jpg) no-repeat;
+		background-size: cover;
+		padding: 35px 100px;
+		margin-bottom: 30px;
+		.clearfix; 
+	}
+	&__h1 {
+		margin: 0;
+		font-family: 'Scada-Bold';
+		font-size: 40px;
+		padding-bottom: 30px; 
+		line-height: 1;
+	}
+	&__rating {
+		height: 55px;
+		margin-bottom: @sp*2;
+		.clearfix;
+		&-starsblock {
+			float: left;
+		}
+		&-result {
+			margin-left: @sp*2;
+			color: darken(@gray, 40%);
+			font-family: 'Scada';
+			font-size: 18px;
+			float: left;
+			margin-top: @sp/2;
+		}
+		&-yourmark {
+			margin-left: @sp*2;
+			color: @blue;
+			font-family: 'Scada';
+			font-size: 18px;
+			float: left;
+			margin-top: @sp/2;
+		}
+	}
+	&__datatime {
+		font-size: 20px;
+		color: @red;
+		font-family: 'Scada';
+		&-data {
+			padding-left: @sp*2;
+			position: relative;
+			i {
+				position: absolute;
+				left: 0px;
+				top: 3px;
+				height: 20px;
+			}
+		}
+		&-time {
+			padding-left: @sp*2;
+		}
+	}
+	&__geo {
+		color: black;
+		position: relative;
+		font-family: 'Scada';
+		font-size: 18px;
+		i {
+			position: absolute;
+			left: -30px;
+			top: 3px;
+			height: 20px;
+			color: darken(@gray, 30%);
+			font-size: 20px;
+		}
+	}
+	&__autor {
+		position: relative;
+
+		&-img {
+			height: 100px;
+			width: 100px;
+			background-size: cover;
+			background: url(../../img/no-photo.png) center center;
+			border-radius: 50%;
+			margin-right: @sp;
+			position: absolute;
+			left: 0;
+			top: -12px;
+		}
+		&-position {
+			color: darken(@gray, 30%);
+			margin-bottom: @sp/3;
+			font-family: 'Scada';
+			font-size: 18px;
+			margin-left: 115px;
+		}
+		&-name {
+			line-height: 1.1;
+			font-family: 'Scada';
+			font-size: 18px;
+			margin-left: 115px;
+		}
+	}
+	&__info {
+		margin-bottom: @sp*2;
+		height: 100px;
+		.clearfix;
+	}
+	&__text {
+		font-family: 'Scada';
+		font-size: 15px;
+		p {
+			margin-bottom: @sp*2;
+		}
+	}
+	&__tags{
+		margin-bottom: @sp*3;
+		.icon-label {
+			color: @blue;
+			margin-right: @sp/3;
+			font-size: 16px;
+
+		}
+		
+	}
+	&__tag{
+		color: darken(@gray, 40%);
+		padding: 4px 8px;
+		background: white;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&__shareblock {
+		&-soc {
+			display: inline-block;
+			margin-right: @sp;
+			a {
+				background: @red;
+				color: white;
+				height: 43px;
+				width: 43px;
+				display: block;
+				text-align: center;
+				line-height: 47px;
+				border-radius: 50%;
+				font-size: 20px;
+				margin-right: 10px;
+				float: left;
+				
+				transition: all 0.2s;
+				&:hover {
+					text-decoration: none;
+					color: white;
+					background: darken(@red, 10%)
+				}
+				
+			}
+		}
+		&-mark {
+			display: block;
+			color: darken(@gray, 40%);
+			padding: 2px 6px;
+			background: white;
+			border: 1px solid darken(@gray, 20%);
+			float: left;
+			margin-top: 10px;
+			position: relative;
+			&:before {
+				content: '';
+				border: 6px solid transparent;	
+				border-right: 6px solid white;
+				position: absolute;
+				top: 6px;
+				left: -12px;
+				z-index: 3;
+			}
+			&:after {
+				content: '';
+				border: 7px solid transparent;	
+				border-right: 7px solid darken(@gray, 25%);
+				position: absolute;
+				top: 5px;
+				left: -14px;
+				z-index: 2;
+			}
+		}
+	}
+	&__title-h3 {
+		font-size: 30px;
+		line-height: 100px;
+		margin: 0;
+		font-family: 'Scada-Bold'; 
+		span {
+			color: @red;
+		}
+	}
+}

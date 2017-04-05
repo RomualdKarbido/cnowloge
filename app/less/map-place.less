@@ -1,0 +1,180 @@
+.map {
+    &-place {
+        width: 100%;
+        height: 450px; 	
+    }
+    &-home {
+        background: url(../../img/map/map-russia.svg) no-repeat center center; 
+        background-size: 100% 100%;     
+        height: 100%;
+        position: relative;
+       
+        
+        &__lector {
+        	position: absolute;
+        	top: 140px;
+        	left: 145px;
+        } 
+        &__events {
+			position: absolute;
+			top: 260px;
+			left: 385px;
+        }       
+        &__web {
+			position: absolute;
+			top: 172px;
+			right: 75px;
+        } 
+        &__value {
+            font-size: 60px;
+            color: black;
+            font-family: Scada-Bold; 
+            position: relative;
+            line-height: 1;
+
+            
+            &_red {
+                color: @red;
+            }
+            &_blue {
+                color: @blue;
+            }
+        }
+        &__text {
+            font-size: 24px;
+            color: black;
+            font-family: Scada-Bold;
+            line-height: 1;
+            &_red {
+                color: @red;
+            }
+            &_blue {
+                color: @blue;
+            }
+        }
+        i {
+            width: 50px;
+            height: 50px;
+            display: block;
+            position: absolute;
+            top: 7px;
+            left: -63px;
+            background-position: right top; 
+            display: block;
+        }
+        &__man {
+			background: url(../../img/map/man.svg) no-repeat;
+			width: 36px;
+			height: 42px; 
+        }
+        &__mic {
+			background: url(../../img/map/mic.svg) no-repeat;
+			width: 36px;
+  			height: 48px;
+        }
+        &__wcam {
+			background: url(../../img/map/wcam.svg) no-repeat;
+  			width: 36px;
+  			height: 48px;
+        }
+    } 
+    &__menu {
+        &-title {
+            font-family: Scada-Bold;  
+            font-size: 18px; 
+            line-height: 1.1; 
+            margin-bottom: 20px;
+            &_state {
+            	background: white;
+            	font-family: Scada; 
+            	font-size: 17px;
+            	display: inline-block;
+            	padding: 0 0 0  10px;
+            	line-height: 31px;
+            	margin-bottom: @sp;
+            }
+            &-close {
+            	display: inline-block;
+            	height: 31px;
+            	width: 31px;
+            	text-align: center;
+            	line-height: 31px;
+            	color: #a1a1a1;
+            	cursor: pointer;
+            	i {
+            		font-size: 13px;
+            		
+            	}
+            	&:hover 
+            	{
+            		color: @red;
+            	}
+
+            }
+        }
+        &-list { 
+            margin: 0 0 50px;
+            display: block;
+            .clearfix;
+        }
+        &-item {
+            display: block;
+            margin: 4px 0;
+            .clearfix;
+        }
+        &-link {
+           color: black;
+           text-decoration: none;
+           font-family: Scada;
+           font-size: 17px;
+           &:hover {
+	           	color: @blue;
+	           	text-decoration: none;
+           } 
+           &_city {
+           		color: #6e6e6e;
+           		font-size: 15px;
+           		margin-left: @sp;
+           		font-family: Scada;
+           		&:before {
+           			content: "\2014\0020";
+           			padding-right: 2px;
+           		}
+	           &:hover {
+		           	color: @blue;
+		           	text-decoration: none;
+	           }
+}
+        }
+        &-value {
+			background: @green;
+			display: inline-block;
+			color: white !important;
+			font-family: Scada-Bold;	
+			font-size: 19px; 
+			line-height: 1;
+			padding: 3px 7px 2px;
+			text-align: right;
+			width: 60px;
+			margin-right: 10px;
+        }
+        
+        &-mark {
+        	width: 25px;
+        	height: 25px;
+        	margin-right: 10px;
+        	display: inline-block;
+        	background: black;
+        	vertical-align: middle;
+
+            &_red{
+            	background: @red;
+            }
+            &_blue{
+            	background: @blue; 
+            }
+        }
+    }
+}
+
+ 

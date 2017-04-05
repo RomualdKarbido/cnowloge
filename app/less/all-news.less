@@ -1,0 +1,70 @@
+.all-news {
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 110px;
+	}
+	&__h1 {
+		margin: 0;
+		font-family: Scada-bold;
+		font-size: 40px;
+		padding-bottom: @sp*2;
+	}
+	&__filter {
+		background: white;
+		padding: 20px @sp*2;
+		margin-bottom: @sp*2;
+		.clearfix;
+
+	}
+	&__select-block {
+		width: 140px;
+		margin-right: @sp; 
+		float: left; 
+		&_big {
+		margin-right: @sp*3; 
+		}
+	}
+	&__label {
+		display: block; 
+		line-height: 40px; 
+		text-transform: uppercase;
+		font-family: Scada;
+		color: darken(@gray, 40%);
+		margin-right: @sp;
+		vertical-align: top;
+		float: left;
+	}
+	&__img {
+		width: 265px;
+		height: 180px;
+		float: left;
+		display: block;
+	}
+	&__content {
+		margin-left: 295px;
+	}
+	&__line {
+		margin-bottom: 20px;
+		.clearfix;
+	}
+	&__title {
+		font-family: 'Scada-bold';
+		font-size: 18px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+	&__text{
+		font-family: 'Scada';
+		font-size: 15px;
+		margin-bottom: 20px;
+		color: darken(@gray, 60%);
+	}
+	hr {
+		height: 2px;
+		background: @gray-light;
+		border: 0;
+		box-shadow: none;
+	}
+
+}

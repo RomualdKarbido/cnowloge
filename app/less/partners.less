@@ -1,0 +1,45 @@
+.partners {
+	padding-bottom: 130px;
+	h2 {
+ 	    font-size: 40px;
+ 	    margin: 0;
+ 	    font-family: Scada-Bold;
+ 	    color: #000;
+ 	    border-bottom: 2px #dddfe3 solid;
+ 	    padding-bottom: 40px; 
+	}
+	h3 {
+		font-size: 22px;
+ 	    margin: 0 0 30px;
+ 	    font-family: Scada-Bold;
+ 	    color: #000;
+ 	    position: relative;
+ 	    padding-left: 70px;
+ 	    &:before {
+ 	    	content: '';
+ 	    	background: url(../../img/v-logo.png) no-repeat;
+ 	    	position: absolute;
+ 	    	top: -15px;
+ 	    	left: 0;
+ 	    	width: 57px;
+ 	    	height: 46px;
+ 	    	background-size: 100%;
+
+ 	    }
+	}
+	&__item {
+		border-bottom: 2px #dddfe3 solid;
+		margin-top: @sp*2;
+		&-text {
+			color: #727272;
+			font-family: Scada;
+			font-size: 15px;
+			p {
+				color: #727272;
+				font-family: Scada;
+				font-size: 15px;
+				margin-bottom: 30px !important; 	
+			}
+		}
+	}
+} 

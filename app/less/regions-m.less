@@ -1,0 +1,78 @@
+.regions-m {
+	.clearfix;
+	&__search {
+		position: relative;
+		input {
+			width: 100%;
+			margin-top: 25px;
+			padding: 8px 10px;
+			border: 2px solid @gray-light;
+			font-family: 'Scada';
+			font-size: 16px;
+		}
+		i {
+			position: absolute;
+			top: 36px;
+			right: 12px;
+			color: @blue;
+			font-size: 18px;
+		}
+	}
+	&__title {
+		color: black;
+		font-family: 'Scada-Bold';
+		font-size: 19px;
+		margin-bottom: @sp;
+		margin-top: @sp*2;
+	}
+	&__list {
+
+	}
+	&__item {
+		font-family: 'Scada';
+		color: #6e6e6e;
+		font-size: 15px;
+		list-style: none;
+		margin-bottom: 6px;
+		&-link {
+			font-family: 'Scada';
+			color: #6e6e6e !important;
+			font-size: 15px;
+			list-style: none;
+			&:hover {
+				color: @blue;
+				text-decoration: none;
+			}
+		}
+
+	}
+	&_mini {
+		padding: @sp;
+		background: white;
+		display: none;
+		&.active {
+			display: block;
+			position: absolute; 
+			z-index: 500; 
+			-webkit-box-shadow: 0 0 31px -7px rgba(0,0,0,.24);
+			-moz-box-shadow: 0 0 31px -7px rgba(0,0,0,.24);
+			box-shadow: 0 0 31px -7px rgba(0,0,0,.24);
+			font-family: 'Scada';
+			font-size: 15px;
+			white-space: nowrap;
+			border-radius: 3px;
+		}
+		&-region {
+			color: #a1a1a1;
+			display: inline-block;
+		}
+		&-name {
+			display: inline-block;
+		}
+		&-btn {
+			display: inline-block;
+			margin-left: @sp;
+
+		}
+	}
+}

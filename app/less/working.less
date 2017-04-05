@@ -1,0 +1,46 @@
+.working {
+	background: url(../../img/working.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 300px;
+	display: flex;
+	justify-content: center; 
+	height: 665px;
+
+	&__contentbox {
+		width: 450px;  
+	}
+
+	&__icon {
+		background: url(../../img/icon1.svg) no-repeat center; 
+		background-size: auto 220px;
+		height: 220px;
+		margin-bottom: 30px;
+		margin-top: 65px;
+		&-text {
+			text-align: center;
+			font-family: 'Scada-bold';
+			font-size: 40px;
+			margin-bottom: 75px; 
+			color: white;
+			line-height: 1;
+			span {
+				font-size: 72px; 
+			}
+		}
+
+	}
+	&__btnblock {
+		&-text {
+			text-align: center;
+			margin-bottom: @sp;
+			color: darken(@gray, 40%);
+			font-family: 'Scada';
+			font-size: 18px;
+
+		} 
+	}
+	.error__btnblock {
+		width: 390px;
+		margin: 0 auto;
+	}
+}

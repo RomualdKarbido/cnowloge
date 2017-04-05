@@ -1,0 +1,61 @@
+.activities-calendar {
+	overflow: hidden;
+	padding-bottom: @sp*3;
+	&__header {
+		font-family: 'Scada-bold';
+		height: 130px;
+		margin: 0 auto;
+		width: 1150px;
+		overflow: hidden;
+	}
+	&__header-h2 {
+		font-family: 'Scada-bold';
+		height: 100px;
+		margin: 0 auto;
+		width: 1150px;
+		overflow: hidden;
+	}
+	&__title-h2 {
+		font-size: 40px;
+		line-height: 130px;
+		margin: 0;
+		color: red;
+	}
+	&__title-h3 {
+		font-size: 30px;
+		line-height: 100px;
+		margin: 0;
+		i {
+			color: @red;
+			margin-right: @sp/3;
+		}
+	}
+	&__return {
+		float: right;
+		margin-right: @sp;
+		&-link {
+			color: black;
+			display: block;
+			font-family: 'Scada-bold';
+			font-size: 20px;
+			line-height: 130px;
+			&:hover {
+				text-decoration: none;
+			}
+			.icon-st-right {
+				margin-left: @sp; 
+				font-size: 16px; 
+			} 
+			&-h2 {
+				line-height: 100px;
+			}
+			&-news {
+				color: @blue;
+			}
+			&-map {
+				line-height: 50px;
+			}
+
+		}
+	} 
+}

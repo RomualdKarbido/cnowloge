@@ -1,0 +1,58 @@
+.TopNews {
+	height: 380px;
+    margin: 0 auto;
+    width: 1150px;
+    overflow: hidden;
+    background-size: cover;
+
+
+    &__title {
+    	color: white;
+    	font-family: 'Scada';
+    	font-size: 36px;
+    	text-transform: uppercase;
+    	display: block;
+    	margin-top: 50px;
+    	margin-left: 55px;
+    	margin-bottom: 2px;
+    }
+    &__location {
+    	color: white;
+    	font-size: 22px;
+    	margin-left: 55px;
+    	font-family: 'Scada';
+    	margin-bottom: 45px;
+    }
+    &__info {
+    	margin-left: 55px;	
+    	color: white;
+    }
+    &__value {
+    	width: 95px;
+    	display: inline-block;
+    	color: white;
+    	text-align: center;
+    	font-size: 42px;
+    	background: black;
+    	font-family: 'Scada-bold';
+    	height: 64px;
+    	line-height: 64px;
+    	margin-bottom: @sp/3;
+    	&_blue {
+    		background: @blue;
+    	}
+		&_red {
+    		background: @red;
+    	}
+    }
+    &__text {
+    	display: inline-block;
+    	width: calc(~"100% - 100px");
+    	padding-left: @sp;
+    	font-size: 21px;
+    	font-family: 'Scada';
+    	line-height: 1.1;
+    	margin-bottom: @sp/2;
+
+    }
+}

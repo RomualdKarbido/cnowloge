@@ -1,0 +1,113 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font-family: 'Scada';
+	height: 100%;
+	font-size: 12px;
+	line-height: 18px;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1024px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.gray-back {
+	background: @gray;
+}
+
+.pad-l-0 {
+	padding-left: 0 !important;
+}
+.pad-r-0 {
+	padding-right: 0 !important;
+}
+.left {
+	float: left !important;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 100px;
+}
+.clearfix {
+	&:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
+.transform_180 {
+	-moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate1805deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Scada-Bold';
+	font-size: 40px;
+	padding-bottom: 30px; 
+	line-height: 1; 
+}
+
+
+

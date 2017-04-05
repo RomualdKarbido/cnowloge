@@ -1,0 +1,105 @@
+.right-menu {
+	&__title {
+		color: #a1a1a1;
+		font-family: 'Scada';
+		font-size: 14px;
+		margin: 0;
+		padding: @sp 0;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	&__title-h2 {
+		color: black;
+		font-family: 'Scada-bold';
+		font-size: 26px;
+		padding: @sp 0;
+		text-align: left;
+		margin: 0 10px;
+	}
+	&__block {
+		background: white; 
+		padding: @sp;
+		margin-bottom: @sp;
+		.clearfix;
+		&_delivery {
+			height: 295px;
+			background: url(../../img/delivery.jpg) no-repeat;
+			background-size: cover;
+			&-logo {
+				height: 70px;
+				width: 100%;
+				background: url(../../img/v-logo.png) no-repeat center;
+				background-size: contain;
+				margin-top: 5px;
+				margin-bottom: 20px;
+			}
+			&-text {
+				text-align: center;
+				font-size: 22px;
+				font-family: 'Scada';
+				margin-bottom: @sp;
+				line-height: 1;
+				span {
+					text-transform: uppercase;
+					font-family: 'Scada-bold';
+					font-size: 30px;
+				}
+			}
+ 		}
+ 		&_hr {
+ 			margin-bottom: 	2px;
+ 		}
+	}
+	&__contact {
+		margin: 0 10px;
+		font-family: 'Scada';
+		font-size: 15px;
+		&-text {
+			p {
+				margin-bottom: @sp*2;
+				&:last-child {
+					padding-bottom: 0;
+				}
+
+			}
+		}
+		&-label {
+			color: darken(@gray, 40%);
+			margin-bottom: 5px;
+		}
+	}
+	&__video-link {
+		color: @blue;
+		font-size: 19px;
+		font-family: 'Scada-bold';
+		display: block;
+		margin: 10px 0;
+		span {
+			border-bottom: 1px solid;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+		i {
+			font-size: 25px;
+			margin-right: @sp/5;
+			vertical-align: middle;
+		}
+	}
+	&__back {
+		color: @red;
+		font-family: Scada-bold;
+		font-size: 15px;
+		display: block;
+		margin-bottom: @sp/2;
+		margin-top: @sp/2;
+		text-decoration: none;
+		i {
+			margin-left: @sp/3;
+		}
+		&:hover {
+			text-decoration: none;
+			color: @blue;
+		}
+	}
+}

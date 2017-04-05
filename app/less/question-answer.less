@@ -1,0 +1,142 @@
+.question-answer {
+	h1 {
+		 border-bottom: 2px #dddfe3 solid;
+		 margin-bottom: 5px;
+		 padding-top: @sp*2; 
+	}
+	&__box {
+		background: white;
+		margin-bottom: 22px;
+		
+		display: flex;
+		&-blue {
+			background: @blue;
+			padding: @sp*2 0;
+			width: 150px;
+			color: white;
+			text-align: center;
+			flex: 0 0 150px;
+			i {
+				font-size: 40px; 
+			}
+
+		}
+		&-data {
+			font-family: 'Scada-Bold';
+			font-size: 18px;
+			text-align: center;
+			
+		}
+		&-question {
+			margin-top: 10px;
+			font-family: 'Scada';
+			font-size: 16px;
+		}
+		&-content {
+			padding: 20px @sp*2;
+			
+			
+		}
+		&-title {
+			font-family: 'Scada-Bold';
+			font-size: 19px;
+			color: black;
+		}
+		&-answer {
+			font-family: 'Scada';
+			font-size: 16px;
+			color: black;
+			margin-top: 25px;
+			padding-left: 40px;
+			border-top: 2px solid  #dddfe3;
+			padding-top: 27px;
+			padding-bottom: @sp;
+			position: relative;
+			i {
+				position: absolute;
+				color: #c7c9cd;
+				font-size: 33px;
+				left: -4px;
+
+
+			}
+		}
+		&-author {
+			font-family: 'Scada';
+			font-size: 16px;
+			color: #a1a1a1;
+			margin-top: 5px;
+		}
+
+	}
+	&__white-top {
+		width: 100%;
+		background-color: #fff;
+	  	padding: @sp*2 @sp*2 22px;
+	  	margin-bottom: 40px;
+		
+		
+		&-wrap {
+			display: flex;
+		}
+		&__left-block {
+			
+	    	flex: 0 0 37%;	
+		}
+
+		&__right-block {
+			flex: 1 0 1px;
+			padding-left: 20px;	
+		}	
+
+		&__input  {
+			width: 100%;
+			margin: 0 20px 9px 0;
+			font-size:15px;
+	    	padding: 8px 12px;
+			border:2px solid #dddfe3;
+			font-family: 'Scada';		    
+		}
+
+		&__text {
+			font-family: 'Scada-Italic';
+			font-size: 16px;
+			line-height: 3em;
+			color: 	#a1a1a1;		
+		}
+
+		textarea {
+	    	width: 100%;
+	    	height: 91px;
+			border:2px solid #dddfe3;
+			resize: none;
+			padding: 5px;
+			font-size: 16px; 
+			font-family: 'Scada';
+	    	margin-bottom: 5px;	
+	    	padding: 10px 20px;
+
+	    	&::-webkit-input-placeholder { color: #a1a1a1 !important; }
+	    	&::-moz-placeholder          { color: #a1a1a1 !important; }/* Firefox 19+ */
+	    	&:-moz-placeholder           { color: #a1a1a1 !important; }/* Firefox 18- */
+	    	&:-ms-input-placeholder      { color: #a1a1a1 !important; }	 			
+		}
+		
+		.btn {
+		    font-size: 17px;
+		    line-height: 17px;
+		}
+
+	}
+}
+
+.question-title {
+	font-family: 'Scada-Bold';	
+	font-size:28px;
+	padding: 16px 0px 25px;
+	line-height:28px;
+
+}
+
+
+

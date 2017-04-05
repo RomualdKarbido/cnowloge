@@ -1,0 +1,4850 @@
+/* Eric Meyer's CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+html {
+  height: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+body {
+  font-family: 'Scada';
+  height: 100%;
+  font-size: 12px;
+  line-height: 18px;
+}
+.wrapper {
+  width: 100%;
+  min-width: 1024px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.gray-back {
+  background: #f3f3f3;
+}
+.pad-l-0 {
+  padding-left: 0 !important;
+}
+.pad-r-0 {
+  padding-right: 0 !important;
+}
+.left {
+  float: left !important;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+  padding: 0 0 100px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.transform_180 {
+  -moz-transform: rotate(180deg);
+  /* Для Firefox */
+  -ms-transform: rotate1805deg);
+  /* Для IE */
+  -webkit-transform: rotate(180deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(180deg);
+  /* Для Opera */
+  transform: rotate(180deg);
+}
+h1 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+@font-face {
+  font-family: Scada;
+  src: url('../../fonts/Scada/Scada-Regular.ttf');
+}
+@font-face {
+  font-family: Scada-Italic;
+  src: url('../../fonts/Scada/Scada-Italic.ttf');
+}
+@font-face {
+  font-family: Scada-bold;
+  src: url('../../fonts/Scada/Scada-Bold.ttf');
+}
+@font-face {
+  font-family: Scada-Italic;
+  src: url('../../fonts/Scada/Scada-Italic.ttf');
+}
+@font-face {
+  font-family: icon;
+  src: url('../../fonts/icon/icon.ttf');
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
+.pr-0 {
+  padding-right: 0 !important;
+}
+.header__content {
+  height: 170px;
+  margin: 0 auto;
+  width: 1150px;
+}
+.header__logo {
+  background: url(../../img/logo.png) no-repeat left top;
+  display: block;
+  float: left;
+  height: 125px;
+  margin-top: 20px;
+  width: 220px;
+}
+.header__top {
+  margin-top: 25px;
+  height: 50px;
+  margin-bottom: 28px;
+}
+.header__top-sity {
+  font-family: 'Scada';
+  font-size: 15px;
+  width: 145px;
+  margin-top: 9px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.header__top-sity .icon-doun {
+  color: #01aeea;
+  margin-left: 3px;
+}
+.header__top-search {
+  width: 257px;
+  display: block;
+  float: left;
+  position: relative;
+}
+.header__top-search-btn {
+  position: absolute;
+  left: -6px;
+  top: 6px;
+  border: 0;
+  background: none;
+  font-size: 18px;
+  color: #01aeea;
+  vertical-align: middle;
+  display: inline-table;
+}
+.header__top-spectacles {
+  display: block;
+  float: left;
+  width: 90px;
+  border: 0;
+  background: none;
+  color: #01aeea;
+  height: 37px;
+  text-align: center;
+}
+.header__top-spectacles a {
+  display: block;
+  height: 23px;
+  margin-top: 8px;
+  color: #01aeea;
+}
+.header__top-spectacles a:focus {
+  text-decoration: none;
+}
+.header__top-spectacles .icon-spectacles {
+  font-size: 23px;
+}
+.header__top-authorization {
+  display: block;
+  float: left;
+  width: 200px;
+  margin-top: 9px;
+}
+.header__top-authorization .icon-castle {
+  color: #01aeea;
+  font-size: 18px;
+  margin-right: 3px;
+}
+.header__top-authorization-link {
+  color: black;
+}
+.header__top-authorization-link:hover {
+  text-decoration: none;
+}
+.header__top-btn {
+  float: left;
+  width: calc(100% - 692px);
+  margin-top: -3px;
+}
+.header__menu-item {
+  display: inline-block;
+  margin-right: 38px;
+}
+.header__menu-item:last-child {
+  margin-right: 0;
+}
+.header__menu-link {
+  color: black;
+  font-family: 'Scada-Bold';
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.header__menu-link:hover {
+  text-decoration: none;
+}
+.header__menu-link:focus {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+.footer {
+  margin: -330px auto 0;
+  min-width: 1024px;
+  position: relative;
+}
+.footer__before {
+  padding: 0 0 330px;
+}
+.footer__wrap {
+  margin: 60px auto 0;
+  width: 1150px;
+}
+.footer__list_right .footer__item {
+  padding-left: 35px;
+}
+.footer__item {
+  margin-bottom: 5px;
+}
+.footer__link {
+  color: #5a5a5a;
+  font-family: 'Scada';
+  font-size: 15px;
+}
+.footer__link:hover {
+  text-decoration: none;
+}
+.footer__link_spectacles {
+  position: relative;
+}
+.footer__link_spectacles:before {
+  content: "\e916";
+  position: absolute;
+  left: -35px;
+  top: -7px;
+  font-family: 'icon';
+  font-size: 24px;
+}
+.footer__right {
+  position: relative;
+  padding-top: 76px;
+}
+.footer__logo {
+  position: absolute;
+  width: 276px;
+  height: 48px;
+  background: url(../../img/logo-footer.png) no-repeat top left;
+  top: 0;
+  left: -35px;
+}
+.footer__bottom {
+  height: 40px;
+  clear: both;
+}
+.footer__copy {
+  font-family: 'Scada';
+  font-size: 15px;
+  color: black;
+}
+.footer__soc a {
+  color: #cbcbcb;
+  margin-right: 35px;
+  transition: all 0.2s;
+  vertical-align: midle;
+}
+.footer__soc a:hover {
+  text-decoration: none;
+}
+.footer__soc a:nth-child(1) {
+  font-size: 13px;
+}
+.footer__soc a:nth-child(1):hover {
+  color: #5b7aa8;
+}
+.footer__soc a:nth-child(2) {
+  font-size: 20px;
+}
+.footer__soc a:nth-child(2):hover {
+  color: #3b5998;
+}
+.footer__soc a:nth-child(3) {
+  font-size: 17px;
+}
+.footer__soc a:nth-child(3):hover {
+  color: #41abe1;
+}
+.footer__soc a:nth-child(4) {
+  font-size: 22px;
+}
+.footer__soc a:nth-child(4):hover {
+  color: #eb722e;
+}
+.input {
+  width: 100%;
+}
+.input_search {
+  border: 0;
+  box-shadow: none;
+  background: none;
+  padding: 7.5px 0 7.5px 30px;
+  border-bottom: 2px solid #dddfe3;
+}
+.input_search:focus {
+  outline: none;
+}
+.input__win-login {
+  width: 100%;
+  margin-bottom: 7.5px;
+  box-shadow: none;
+  border: 2px solid #dadada;
+  padding: 7px 10px 7px 50px;
+  font-family: 'Scada';
+  font-size: 15px;
+  outline: none;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.input__win-login::-webkit-input-placeholder {
+  color: #adadad;
+}
+.input__win-login::-moz-placeholder {
+  color: #adadad;
+}
+.input__win-login:-moz-placeholder {
+  color: #adadad;
+}
+.input__win-login:-ms-input-placeholder {
+  color: #adadad;
+}
+.input__all-events {
+  line-height: 1;
+  color: #000;
+  padding: 11px 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Scada';
+  width: calc(100% - 110px);
+  border: 0;
+  float: left;
+  margin-right: 3px;
+  height: 40px;
+  font-size: 17px;
+}
+/* --- EASYDROPDOWN DEFAULT THEME --- */
+/* PREFIXED CSS */
+.dropdown,
+.dropdown div,
+.dropdown li,
+.dropdown div::after {
+  -webkit-transition: all 150ms ease-in-out;
+  -moz-transition: all 150ms ease-in-out;
+  -ms-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.dropdown .selected::after,
+.dropdown.scrollable div::after {
+  -webkit-pointer-events: none;
+  -moz-pointer-events: none;
+  -ms-pointer-events: none;
+  pointer-events: none;
+}
+/* WRAPPER */
+.dropdown {
+  position: relative;
+  border: 2px solid #dddfe3;
+  background: 0 0;
+  cursor: pointer;
+  background: #fff;
+  font-family: 'Scada-bold';
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+.dropdown.open {
+  z-index: 2;
+}
+/* CARAT */
+.dropdown .carat {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  margin-top: -4px;
+  background: url(../../img/st-b.svg) no-repeat;
+  width: 12px;
+  height: 7px;
+  transition: all 0.2s;
+}
+.dropdown.open .carat {
+  background: url(../../img/st-b.svg) no-repeat;
+  -moz-transform: rotate(180deg);
+  /* Для Firefox */
+  -ms-transform: rotate1805deg);
+  /* Для IE */
+  -webkit-transform: rotate(180deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(180deg);
+  /* Для Opera */
+  transform: rotate(180deg);
+}
+.dropdown.disabled .carat {
+  border-top-color: #999;
+}
+/* OLD SELECT (HIDDEN) */
+.dropdown .old {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+.dropdown select {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.dropdown.touch .old {
+  width: 100%;
+  height: 100%;
+}
+.dropdown.touch select {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+/* SELECTED FEEDBACK ITEM */
+.dropdown .selected,
+.dropdown li {
+  display: block;
+  line-height: 1;
+  color: #000;
+  padding: 11px 12px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.dropdown.disabled .selected {
+  color: #999;
+}
+.dropdown .selected::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  border-radius: 0 2px 2px 0;
+  box-shadow: inset -55px 0 25px -20px #fff;
+}
+/* DROP DOWN WRAPPER */
+.dropdown div {
+  position: absolute;
+  height: 0;
+  left: -2px;
+  right: -2px;
+  top: 100%;
+  margin-top: -1px;
+  background: #fff;
+  border: 2px solid #dddfe3;
+  border-radius: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+/* Height is adjusted by JS on open */
+.dropdown.open div {
+  opacity: 1;
+  z-index: 2;
+}
+/* FADE OVERLAY FOR SCROLLING LISTS */
+.dropdown.scrollable div::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  box-shadow: inset 0 -50px 30px -35px #fff;
+}
+.dropdown.scrollable.bottom div::after {
+  opacity: 0;
+}
+/* DROP DOWN LIST */
+.dropdown ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+.dropdown.scrollable.open ul {
+  overflow-y: auto;
+}
+/* DROP DOWN LIST ITEMS */
+.dropdown li {
+  list-style: none;
+  padding: 8px 12px;
+}
+/* .focus class is also added on hover */
+.dropdown li.focus {
+  background: #dadada;
+  position: relative;
+  z-index: 3;
+  color: black;
+}
+.dropdown li.active {
+  font-weight: 700;
+}
+.btn:focus {
+  outline: none;
+}
+.btn__left {
+  width: auto !important;
+  display: inline-block;
+}
+.btn__right {
+  width: auto !important;
+  display: block;
+  float: right;
+  margin-left: 10px !important;
+}
+.btn__center {
+  width: 100% !important;
+  display: inline-block;
+  text-align: center !important;
+  padding-left: 0 !important ;
+  padding-right: 0 !important;
+}
+.btn-header {
+  width: 100%;
+  border: 2px solid #dddfe3;
+  background: none;
+  padding: 11px 0;
+  text-align: center;
+}
+.btn__blue {
+  color: white;
+  text-align: center;
+  background: #01aeea;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+  text-decoration: none;
+  font-family: 'Scada-bold';
+  border: none;
+}
+.btn__blue:hover {
+  text-decoration: none;
+  color: white;
+}
+.btn__blue:visited {
+  color: white;
+  text-decoration: none;
+}
+.btn__blue_mini {
+  color: white;
+  text-align: center;
+  background: #01aeea;
+  width: auto;
+  border: none;
+  padding: 5px 15px;
+}
+.btn__blue_mini:focus {
+  outline: none;
+}
+.btn__gray {
+  color: white;
+  text-align: center;
+  background: #4f5c64;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+  text-decoration: none;
+  font-family: 'Scada-bold';
+  border: none;
+}
+.btn__gray:hover {
+  text-decoration: none;
+  color: white;
+}
+.btn__gray:visited {
+  color: white;
+  text-decoration: none;
+}
+.btn-win-login {
+  width: 280px;
+  line-height: 40px;
+  margin: 0 auto 35px;
+  display: block;
+}
+.btn-win-login:hover {
+  text-decoration: none;
+  color: white;
+}
+.btn-filter {
+  line-height: 38px;
+  display: block;
+  height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  float: left;
+  font-size: 17px;
+}
+.btn__ring {
+  width: 100%;
+  border-radius: 32px;
+  background: #f3f3f3;
+  border: 0;
+  margin-bottom: 5px;
+  height: 32px;
+  line-height: 32px;
+  text-align: left;
+  padding: 0 15px;
+  font-family: 'Scada-bold';
+  font-size: 17px;
+  color: #5a5a5a;
+}
+.btn__ring i {
+  margin-right: 15px;
+  margin-top: 3px;
+  vertical-align: middle;
+}
+.btn__ring_blue {
+  background: #01aeea;
+  color: white;
+}
+.btn__ring_big {
+  height: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  font-size: 18px;
+}
+.btn__red {
+  color: white;
+  text-align: center;
+  background: #eb5427;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+  text-decoration: none;
+  font-family: 'Scada-bold';
+}
+.btn__red:hover {
+  text-decoration: none;
+}
+.btn__red_big {
+  height: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  font-size: 18px;
+  background: #eb5427;
+  color: white;
+}
+.btn__red_mini {
+  color: white;
+  text-align: center;
+  background: #eb5427;
+  width: auto;
+  border: none;
+  padding: 5px 15px;
+}
+.btn__red_mini:focus {
+  outline: none;
+}
+.TopNews {
+  height: 380px;
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+  background-size: cover;
+}
+.TopNews__title {
+  color: white;
+  font-family: 'Scada';
+  font-size: 36px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 50px;
+  margin-left: 55px;
+  margin-bottom: 2px;
+}
+.TopNews__location {
+  color: white;
+  font-size: 22px;
+  margin-left: 55px;
+  font-family: 'Scada';
+  margin-bottom: 45px;
+}
+.TopNews__info {
+  margin-left: 55px;
+  color: white;
+}
+.TopNews__value {
+  width: 95px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  background: black;
+  font-family: 'Scada-bold';
+  height: 64px;
+  line-height: 64px;
+  margin-bottom: 5px;
+}
+.TopNews__value_blue {
+  background: #01aeea;
+}
+.TopNews__value_red {
+  background: #eb5427;
+}
+.TopNews__text {
+  display: inline-block;
+  width: calc(100% - 100px);
+  padding-left: 15px;
+  font-size: 21px;
+  font-family: 'Scada';
+  line-height: 1.1;
+  margin-bottom: 7.5px;
+}
+.activities-calendar {
+  overflow: hidden;
+  padding-bottom: 45px;
+}
+.activities-calendar__header {
+  font-family: 'Scada-bold';
+  height: 130px;
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+}
+.activities-calendar__header-h2 {
+  font-family: 'Scada-bold';
+  height: 100px;
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+}
+.activities-calendar__title-h2 {
+  font-size: 40px;
+  line-height: 130px;
+  margin: 0;
+  color: green;
+}
+.activities-calendar__title-h3 {
+  font-size: 30px;
+  line-height: 100px;
+  margin: 0;
+}
+.activities-calendar__title-h3 i {
+  color: #eb5427;
+  margin-right: 5px;
+}
+.activities-calendar__return {
+  float: right;
+  margin-right: 15px;
+}
+.activities-calendar__return-link {
+  color: black;
+  display: block;
+  font-family: 'Scada-bold';
+  font-size: 20px;
+  line-height: 130px;
+}
+.activities-calendar__return-link:hover {
+  text-decoration: none;
+}
+.activities-calendar__return-link .icon-st-right {
+  margin-left: 15px;
+  font-size: 16px;
+}
+.activities-calendar__return-link-h2 {
+  line-height: 100px;
+}
+.activities-calendar__return-link-news {
+  color: #01aeea;
+}
+.activities-calendar__return-link-map {
+  line-height: 50px;
+}
+.data-block {
+  margin-top: 10px;
+}
+.data-block__wrap {
+  float: left;
+  width: 330px;
+}
+.data-block__item {
+  width: 63px;
+  float: left;
+  text-align: center;
+}
+.data-block__item.active .data-block__data {
+  font-size: 40px;
+  margin-top: 24px;
+  color: black;
+  height: 31px;
+  font-family: 'Scada-bold';
+}
+.data-block__item.active .data-block__month {
+  font-size: 25px;
+  color: black;
+  height: 25px;
+  font-family: 'Scada-bold';
+}
+.data-block__data {
+  font-size: 22px;
+  margin-top: 40px;
+  line-height: 1;
+  color: #707070;
+  height: 19px;
+  font-family: 'Scada-bold';
+}
+.data-block__month {
+  font-size: 15px;
+  font-family: 'Scada-bold';
+  line-height: 1;
+  color: #707070;
+  height: 15px;
+}
+.event-block {
+  margin: 0 auto;
+  width: 1150px;
+}
+.event-block__item {
+  margin-bottom: 15px;
+}
+.event-block__img {
+  height: 260px;
+  background: red;
+  position: relative;
+  overflow: hidden;
+}
+.event-block__data {
+  background: white;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 70px;
+}
+.event-block__data-day {
+  font-family: 'Scada-bold';
+  font-size: 44px;
+  line-height: 1;
+  padding: 15px 0 10px;
+}
+.event-block__data-month {
+  background: #01aeea;
+  color: white;
+  font-family: 'Scada-bold';
+  font-size: 22px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.event-block__footer {
+  background: white;
+  padding: 20px 25px;
+}
+.event-block__title {
+  font-family: 'Scada-bold';
+  display: block;
+  color: black;
+  height: 75px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.event-block__title:hover {
+  text-decoration: underline;
+  color: black;
+}
+.event-block__title:visited {
+  color: black;
+}
+.event-block__value {
+  color: #eb5427;
+  font-family: 'Scada-bold';
+  font-size: 20px;
+}
+.event-block__value span {
+  color: #a1a1a1;
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.event-block__web-cam {
+  background: #eb5427;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 28px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 54px;
+  cursor: pointer;
+}
+.event-block__web-cam.available {
+  opacity: 0.7;
+  cursor: inherit;
+}
+.news {
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.news__title {
+  font-family: 'Scada-bold';
+  height: 130px;
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+  font-size: 40px;
+  line-height: 130px;
+}
+.news__block {
+  padding-bottom: 45px;
+}
+.news__block a {
+  text-decoration: none;
+}
+.news__block a:hover {
+  text-decoration: none;
+}
+.news__item {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 360px;
+}
+.news__name {
+  font-family: Scada-bold;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  line-height: 1.2;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.news__data {
+  color: #eb5427;
+  font-family: Scada-bold;
+  font-size: 15px;
+}
+.news__data .icon-clock {
+  margin-right: 5px;
+}
+.news__text {
+  font-family: Scada;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #737373;
+}
+.news__photo {
+  position: relative;
+  height: 360px;
+  display: block;
+}
+.news__photo .news__name {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 61px;
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.news__photo .news__data {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  padding: 20px 20px;
+}
+.news__photo .news__text {
+  display: none;
+}
+.i-map {
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.i-map__title {
+  padding-top: 90px;
+  font-family: Scada-bold;
+  font-size: 40px;
+  padding-bottom: 15px;
+  background: url(../../img/v-logo.png) left top no-repeat;
+}
+.i-map__text {
+  font-family: Scada;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #737373;
+}
+.map-place {
+  width: 100%;
+  height: 450px;
+}
+.map-home {
+  background: url(../../img/map/map-russia.svg) no-repeat center center;
+  background-size: 100% 100%;
+  height: 100%;
+  position: relative;
+}
+.map-home__lector {
+  position: absolute;
+  top: 140px;
+  left: 145px;
+}
+.map-home__events {
+  position: absolute;
+  top: 260px;
+  left: 385px;
+}
+.map-home__web {
+  position: absolute;
+  top: 172px;
+  right: 75px;
+}
+.map-home__value {
+  font-size: 60px;
+  color: black;
+  font-family: Scada-Bold;
+  position: relative;
+  line-height: 1;
+}
+.map-home__value_red {
+  color: #eb5427;
+}
+.map-home__value_blue {
+  color: #01aeea;
+}
+.map-home__text {
+  font-size: 24px;
+  color: black;
+  font-family: Scada-Bold;
+  line-height: 1;
+}
+.map-home__text_red {
+  color: #eb5427;
+}
+.map-home__text_blue {
+  color: #01aeea;
+}
+.map-home i {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 7px;
+  left: -63px;
+  background-position: right top;
+  display: block;
+}
+.map-home__man {
+  background: url(../../img/map/man.svg) no-repeat;
+  width: 36px;
+  height: 42px;
+}
+.map-home__mic {
+  background: url(../../img/map/mic.svg) no-repeat;
+  width: 36px;
+  height: 48px;
+}
+.map-home__wcam {
+  background: url(../../img/map/wcam.svg) no-repeat;
+  width: 36px;
+  height: 48px;
+}
+.map__menu-title {
+  font-family: Scada-Bold;
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.map__menu-title_state {
+  background: white;
+  font-family: Scada;
+  font-size: 17px;
+  display: inline-block;
+  padding: 0 0 0  10px;
+  line-height: 31px;
+  margin-bottom: 15px;
+}
+.map__menu-title-close {
+  display: inline-block;
+  height: 31px;
+  width: 31px;
+  text-align: center;
+  line-height: 31px;
+  color: #a1a1a1;
+  cursor: pointer;
+}
+.map__menu-title-close i {
+  font-size: 13px;
+}
+.map__menu-title-close:hover {
+  color: #eb5427;
+}
+.map__menu-list {
+  margin: 0 0 50px;
+  display: block;
+}
+.map__menu-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.map__menu-item {
+  display: block;
+  margin: 4px 0;
+}
+.map__menu-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.map__menu-link {
+  color: black;
+  text-decoration: none;
+  font-family: Scada;
+  font-size: 17px;
+}
+.map__menu-link:hover {
+  color: #01aeea;
+  text-decoration: none;
+}
+.map__menu-link_city {
+  color: #6e6e6e;
+  font-size: 15px;
+  margin-left: 15px;
+  font-family: Scada;
+}
+.map__menu-link_city:before {
+  content: "\2014\0020";
+  padding-right: 2px;
+}
+.map__menu-link_city:hover {
+  color: #01aeea;
+  text-decoration: none;
+}
+.map__menu-value {
+  background: #5ec66f;
+  display: inline-block;
+  color: white !important;
+  font-family: Scada-Bold;
+  font-size: 19px;
+  line-height: 1;
+  padding: 3px 7px 2px;
+  text-align: right;
+  width: 60px;
+  margin-right: 10px;
+}
+.map__menu-mark {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  display: inline-block;
+  background: black;
+  vertical-align: middle;
+}
+.map__menu-mark_red {
+  background: #eb5427;
+}
+.map__menu-mark_blue {
+  background: #01aeea;
+}
+.fresh-media {
+  overflow: hidden;
+  padding-bottom: 45px;
+}
+.fresh-media__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.fresh-media__big-block {
+  height: 390px;
+  background: red;
+  position: relative;
+}
+.fresh-media__big-block:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.fresh-media__big-block-value {
+  background: #01aeea;
+  bottom: 110px;
+  color: white;
+  font-family: 'Scada-bold';
+  font-size: 32px;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 90px;
+}
+.fresh-media__big-block-value .icon-photo {
+  width: 100%;
+  display: block;
+  margin-top: 14px;
+  font-size: 28px;
+}
+.fresh-media__big-block-info {
+  position: absolute;
+  color: white;
+  left: 115px;
+  top: 185px;
+  padding-left: 15px;
+}
+.fresh-media__big-block-title {
+  font-family: 'Scada-bold';
+  font-size: 30px;
+  margin-top: 0;
+}
+.fresh-media__big-block-data {
+  margin-top: 45px;
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.fresh-media__mini-block {
+  height: 167px;
+  background: red;
+  position: relative;
+  margin-bottom: 30px;
+}
+.fresh-media__mini-block:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.fresh-media__mini-block-value {
+  top: 15px;
+  color: white;
+  font-family: 'Scada';
+  font-size: 16px;
+  left: 15px;
+  position: absolute;
+}
+.fresh-media__mini-block-value .icon-photo {
+  display: none;
+}
+.fresh-media__mini-block-info {
+  position: absolute;
+  color: white;
+  left: 15px;
+  bottom: 15px;
+  right: 15px;
+}
+.fresh-media__mini-block-title {
+  font-family: 'Scada-bold';
+  font-size: 20px;
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.fresh-media__mini-block-data {
+  display: none;
+}
+.fresh-media__middle-block {
+  height: 193px;
+  background: red;
+  position: relative;
+}
+.fresh-media__middle-block:before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.fresh-media__middle-block-value {
+  top: 15px;
+  color: white;
+  font-family: 'Scada';
+  font-size: 16px;
+  left: 15px;
+  position: absolute;
+}
+.fresh-media__middle-block-value .icon-photo {
+  display: none;
+}
+.fresh-media__middle-block-info {
+  position: absolute;
+  color: white;
+  left: 15px;
+  bottom: 15px;
+  right: 15px;
+}
+.fresh-media__middle-block-title {
+  font-family: 'Scada-bold';
+  font-size: 20px;
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.fresh-media__middle-block-data {
+  display: none;
+}
+.fresh-media__middle-block-video {
+  background: #eb5427;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  text-align: center;
+  font-size: 25px;
+  line-height: 55px;
+  color: white;
+  cursor: pointer;
+}
+.fresh-media__photo-block {
+  height: 167px;
+  background: red;
+  position: relative;
+  background: #01aeea;
+  margin-bottom: 30px;
+}
+.fresh-media__photo-block-value {
+  color: white;
+  font-family: 'Scada-Bold';
+  font-size: 32px;
+  left: 15px;
+  text-align: center;
+  line-height: 1;
+}
+.fresh-media__photo-block-value-text {
+  font-size: 18px;
+  width: 100%;
+  line-height: 1;
+  font-family: 'Scada-Bold';
+  text-align: center;
+  color: white;
+}
+.fresh-media__photo-block-value .icon-photo {
+  width: 100%;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+.fresh-media__photo-block-value-files {
+  font-family: 'Scada-Bold';
+  font-size: 32px;
+  left: 15px;
+  text-align: center;
+  line-height: 1;
+}
+.fresh-media__big-value {
+  position: absolute;
+  color: white;
+}
+.win-login {
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.win-login__block {
+  width: 480px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  padding: 25px 0 0 0;
+  position: relative;
+}
+.win-login__block_big {
+  width: 1020px;
+  top: 150px;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1001;
+  left: 0;
+  right: 0;
+  padding: 40px 55px;
+}
+.win-login__close {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.win-login__close:hover {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+.win-login__pass {
+  text-align: center;
+  display: block;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-family: 'Scada-bold';
+  color: black;
+}
+.win-login__title {
+  font-family: 'Scada-bold';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  color: #010101;
+}
+.win-login__soc {
+  border-bottom: 2px solid #dadada;
+  text-align: center;
+  padding: 15px 0 30px;
+  margin: 0 50px;
+}
+.win-login__soc-link {
+  background: #eb5427;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 39px;
+  margin: 0 3px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s;
+  vertical-align: middle;
+  width: 40px;
+}
+.win-login__soc-link:hover {
+  background: #cc3d13;
+  color: white;
+  text-decoration: none;
+}
+.win-login__form {
+  border-bottom: 2px solid #dadada;
+  margin: 0 50px;
+  padding: 35px 55px 20px;
+}
+.win-login__form-line {
+  position: relative;
+}
+.win-login__form-line:nth-child(2) {
+  margin-bottom: 20px;
+}
+.win-login__form-icon {
+  background: #f3f3f3;
+  border: 2px solid #dadada;
+  color: #c0c0c0;
+  font-size: 20px;
+  height: 39px;
+  left: 0;
+  line-height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 39px;
+}
+.win-login__capcha {
+  margin: 0 50px;
+}
+.win-login__capcha-text {
+  font-family: 'Scada-bold';
+  font-size: 17px;
+  margin: 20px 0;
+  text-align: center;
+}
+.win-login__capcha-content {
+  border-bottom: 2px solid #dadada;
+  height: 115px;
+  padding-bottom: 20px;
+}
+.win-login__checkbox {
+  color: #5a5a5a;
+  font-family: 'Scada';
+  font-size: 15px;
+  margin: 20px 0 10px;
+  text-align: center;
+  width: 100%;
+}
+.win-login__checkbox input {
+  display: inline-block;
+  margin-right: 5px;
+}
+.win-login__footer {
+  background: white url(../../img/v-logo.png) no-repeat;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-size: 52px auto;
+  padding: 25px 20px 25px 145px;
+  background-position: 80px 25px;
+  color: #727272;
+  font-family: 'Scada';
+  font-size: 15px;
+}
+.win-login__footer-link {
+  color: #eb5427;
+  font-family: 'Scada';
+  font-size: 15px;
+  text-decoration: underline;
+}
+.win-login .icon-fb-2 {
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+}
+.win-login .icon-vk {
+  display: block;
+  font-size: 12px;
+  line-height: 40px;
+}
+.win-login .icon-gplus {
+  display: block;
+  font-size: 20px;
+  line-height: 39px;
+}
+.win-login .icon-ok-2 {
+  display: block;
+  font-size: 23px;
+  line-height: 40px;
+}
+.all-news__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.all-news__h1 {
+  margin: 0;
+  font-family: Scada-bold;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.all-news__filter {
+  background: white;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+.all-news__filter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.all-news__select-block {
+  width: 140px;
+  margin-right: 15px;
+  float: left;
+}
+.all-news__select-block_big {
+  margin-right: 45px;
+}
+.all-news__label {
+  display: block;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: Scada;
+  color: #8d8d8d;
+  margin-right: 15px;
+  vertical-align: top;
+  float: left;
+}
+.all-news__img {
+  width: 265px;
+  height: 180px;
+  float: left;
+  display: block;
+}
+.all-news__content {
+  margin-left: 295px;
+}
+.all-news__line {
+  margin-bottom: 20px;
+}
+.all-news__line:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.all-news__title {
+  font-family: 'Scada-bold';
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.all-news__text {
+  font-family: 'Scada';
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #5a5a5a;
+}
+.all-news hr {
+  height: 2px;
+  background: #dddfe3;
+  border: 0;
+  box-shadow: none;
+}
+.pagination {
+  text-align: center;
+  margin-top: 30px;
+}
+.pagination:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pagination__item {
+  display: inline-block;
+  font-family: 'Scada-bold';
+  font-size: 20px;
+  min-width: 38px;
+  height: 38px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.pagination__item_no-back {
+  background: none;
+}
+.pagination__item_off .pagination__link {
+  color: #dadada;
+}
+.pagination__item.active .pagination__link {
+  color: #eb5427;
+}
+.pagination__item:first-child {
+  margin-right: 15px;
+}
+.pagination__item:first-child .pagination__link {
+  font-size: 16px;
+}
+.pagination__item:last-child {
+  margin-left: 15px;
+}
+.pagination__item:last-child .pagination__link {
+  font-size: 16px;
+}
+.pagination__link {
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 0 7.5px;
+  margin: 0 3px;
+  display: block;
+  min-width: 38px;
+  height: 38px;
+}
+.pagination__link:hover {
+  text-decoration: none;
+}
+.breadcrumbs {
+  margin-bottom: 20px;
+  background: .clearfix;
+}
+.breadcrumbs .breadcrumb-item {
+  color: #8d8d8d;
+  position: relative;
+  margin-right: 30px;
+  font-family: 'Scada';
+  font-size: 15px;
+}
+.breadcrumbs .breadcrumb-item:after {
+  content: '';
+  background: url('../../img//st-r.svg') no-repeat;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: -25px;
+  top: 5px;
+}
+.breadcrumbs .breadcrumb-item:last-child:after {
+  display: none;
+}
+.breadcrumbs .breadcrumb-item:hover {
+  text-decoration: none;
+  color: #01aeea;
+}
+#DeltaBreadcrumbDropdown {
+  background: #f3f3f3;
+  display: block;
+  padding-bottom: 20px;
+}
+#DeltaBreadcrumbDropdown .breadcrumb {
+  margin: 0 auto;
+  width: 1150px;
+}
+#DeltaBreadcrumbDropdown .breadcrumb-item {
+  color: #8d8d8d;
+  position: relative;
+  margin-right: 30px;
+  font-family: 'Scada';
+  font-size: 15px;
+}
+#DeltaBreadcrumbDropdown .breadcrumb-item:before {
+  content: '';
+  background: url(@{fontsBase}/st-r.svg) no-repeat;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+}
+#DeltaBreadcrumbDropdown .breadcrumb-item:hover {
+  text-decoration: none;
+  color: #01aeea;
+}
+#DeltaBreadcrumbDropdown .breadcrumb-item-prev:before {
+  content: '';
+  display: none;
+}
+.all-events__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.all-events__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.all-events__search {
+  background: url(../../img/search-img.jpg) no-repeat;
+  background-size: cover;
+  padding: 35px 100px;
+  margin-bottom: 30px;
+}
+.all-events__search:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.all-events__search input[type=text] {
+  background-color: #ffffff;
+  padding-left: 15px;
+}
+.all-events__search input[type=text]::-webkit-input-placeholder {
+  color: #adadad;
+}
+.all-events__search input[type=text]::-moz-placeholder {
+  color: #adadad;
+}
+.all-events__search input[type=text]:-moz-placeholder {
+  color: #adadad;
+}
+.all-events__search input[type=text]:-ms-input-placeholder {
+  color: #adadad;
+}
+.all-events__h1 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+.all-events__item {
+  background: white;
+  margin-bottom: 30px;
+}
+.all-events__item_mini {
+  height: 138px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: block;
+  color: black;
+}
+.all-events__item_mini:hover {
+  text-decoration: none;
+}
+.all-events__item_mini .news__data {
+  margin-bottom: 10px;
+}
+.all-events__item_mini-text {
+  height: 55px;
+  overflow: hidden;
+}
+.all-events__img {
+  height: 200px;
+  position: relative;
+}
+.all-events__info {
+  height: 230px;
+}
+.all-events__info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.all-events__data {
+  background: white;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 60px;
+}
+.all-events__data-day {
+  font-family: 'Scada-bold';
+  font-size: 38px;
+  line-height: 1;
+  padding: 10px 0 10px;
+}
+.all-events__data-month {
+  background: #01aeea;
+  color: white;
+  font-family: 'Scada-bold';
+  font-size: 20px;
+  padding: 2px 0;
+  text-transform: uppercase;
+}
+.all-events__footer {
+  background: white;
+  padding: 20px 15px;
+  height: 235px;
+}
+.all-events__title {
+  font-family: 'Scada-bold';
+  display: block;
+  color: black;
+  height: 70px;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.all-events__title:hover {
+  color: black;
+}
+.all-events__autor,
+.all-events__place {
+  font-family: 'Scada';
+  font-size: 14px;
+  color: black;
+}
+.all-events__autor span,
+.all-events__place span {
+  color: #a1a1a1;
+}
+.all-events__place {
+  margin-bottom: 15px;
+}
+.all-events__value {
+  color: #eb5427;
+  font-family: 'Scada-bold';
+  font-size: 17px;
+  display: inline-block;
+  margin: 0 25px 0 0 ;
+}
+.all-events__value i {
+  color: #c0c0c0;
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.all-events__value .icon-eye {
+  font-size: 12px;
+}
+.all-events__value-wrap {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.all-events__value-rating {
+  margin-top: 3px;
+}
+.all-events__value-text {
+  color: #8d8d8d;
+  font-family: 'Scada';
+  font-size: 14px;
+  margin-top: 25px;
+}
+.all-events__value-btn {
+  margin-top: 35px;
+}
+.tags__tag {
+  background: #f3f3f3;
+  font-size: 14px;
+  padding: 2px 7.5px;
+  text-decoration: none;
+  font-family: 'Scada';
+  color: #a1a1a1;
+  line-height: 1.8;
+}
+.tags__tag:hover {
+  text-decoration: none;
+}
+.tags__tag.active {
+  background: #01aeea;
+  color: white;
+}
+.tags__tag-all {
+  font-size: 20px;
+  color: #a1a1a1;
+  height: 26px;
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.tags__tag-all:hover {
+  text-decoration: none;
+  color: #555555;
+}
+.tags__tag-all:focus {
+  text-decoration: none;
+}
+.tags__modal {
+  background: white;
+  padding: 10px 15px 15px 17px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  -webkit-box-shadow: 0px 0px 31px -7px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 0px 31px -7px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 31px -7px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  width: 300px;
+  line-height: 1.25;
+  display: none;
+  z-index: 500;
+}
+.tags__modal .tags__tag {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  margin-left: -2px;
+  white-space: nowrap;
+}
+.tags__modal.active {
+  display: block;
+}
+.tegs__white {
+  position: relative;
+}
+.tegs__white i {
+  color: #01aeea;
+  float: left;
+  display: inline-block;
+  padding-right: 7.5px;
+  font-size: 20px;
+  margin-top: 3px;
+}
+.tegs__white .tags__tag {
+  background: white;
+  font-size: 15px;
+  padding: 3px 7.5px;
+  text-decoration: none;
+  font-family: 'Scada';
+  color: #a1a1a1;
+  line-height: 1.8;
+}
+.tegs__white .tags__tag:hover {
+  text-decoration: none;
+}
+.tegs__white .tags__tag.active {
+  background: #01aeea;
+  color: white;
+}
+.show-more {
+  text-align: center;
+  font-family: 'Scada-bold';
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
+.show-more:hover,
+.show-more:focus {
+  text-decoration: none;
+}
+.show-more:visited {
+  color: black;
+}
+.right-menu__title {
+  color: #a1a1a1;
+  font-family: 'Scada';
+  font-size: 14px;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.right-menu__title-h2 {
+  color: black;
+  font-family: 'Scada-bold';
+  font-size: 26px;
+  padding: 15px 0;
+  text-align: left;
+  margin: 0 10px;
+}
+.right-menu__block {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.right-menu__block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.right-menu__block_delivery {
+  height: 295px;
+  background: url(../../img/delivery.jpg) no-repeat;
+  background-size: cover;
+}
+.right-menu__block_delivery-logo {
+  height: 70px;
+  width: 100%;
+  background: url(../../img/v-logo.png) no-repeat center;
+  background-size: contain;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.right-menu__block_delivery-text {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Scada';
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.right-menu__block_delivery-text span {
+  text-transform: uppercase;
+  font-family: 'Scada-bold';
+  font-size: 30px;
+}
+.right-menu__block_hr {
+  margin-bottom: 2px;
+}
+.right-menu__contact {
+  margin: 0 10px;
+  font-family: 'Scada';
+  font-size: 15px;
+}
+.right-menu__contact-text p {
+  margin-bottom: 30px;
+}
+.right-menu__contact-text p:last-child {
+  padding-bottom: 0;
+}
+.right-menu__contact-label {
+  color: #8d8d8d;
+  margin-bottom: 5px;
+}
+.right-menu__video-link {
+  color: #01aeea;
+  font-size: 19px;
+  font-family: 'Scada-bold';
+  display: block;
+  margin: 10px 0;
+}
+.right-menu__video-link span {
+  border-bottom: 1px solid;
+}
+.right-menu__video-link:hover {
+  text-decoration: none;
+}
+.right-menu__video-link i {
+  font-size: 25px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.right-menu__back {
+  color: #eb5427;
+  font-family: Scada-bold;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 7.5px;
+  margin-top: 7.5px;
+  text-decoration: none;
+}
+.right-menu__back i {
+  margin-left: 5px;
+}
+.right-menu__back:hover {
+  text-decoration: none;
+  color: #01aeea;
+}
+.one-event__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.one-event__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-event__search {
+  background: url(../../img/search-img.jpg) no-repeat;
+  background-size: cover;
+  padding: 35px 100px;
+  margin-bottom: 30px;
+}
+.one-event__search:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-event__h1 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+.one-event__rating {
+  height: 55px;
+  margin-bottom: 30px;
+}
+.one-event__rating:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-event__rating-starsblock {
+  float: left;
+}
+.one-event__rating-result {
+  margin-left: 30px;
+  color: #8d8d8d;
+  font-family: 'Scada';
+  font-size: 18px;
+  float: left;
+  margin-top: 7.5px;
+}
+.one-event__rating-yourmark {
+  margin-left: 30px;
+  color: #01aeea;
+  font-family: 'Scada';
+  font-size: 18px;
+  float: left;
+  margin-top: 7.5px;
+}
+.one-event__datatime {
+  font-size: 20px;
+  color: #eb5427;
+  font-family: 'Scada';
+}
+.one-event__datatime-data {
+  padding-left: 30px;
+  position: relative;
+}
+.one-event__datatime-data i {
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  height: 20px;
+}
+.one-event__datatime-time {
+  padding-left: 30px;
+}
+.one-event__geo {
+  color: black;
+  position: relative;
+  font-family: 'Scada';
+  font-size: 18px;
+}
+.one-event__geo i {
+  position: absolute;
+  left: -30px;
+  top: 3px;
+  height: 20px;
+  color: #a6a6a6;
+  font-size: 20px;
+}
+.one-event__autor {
+  position: relative;
+}
+.one-event__autor-img {
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background: url(../../img/no-photo.png) center center;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  top: -12px;
+}
+.one-event__autor-position {
+  color: #a6a6a6;
+  margin-bottom: 5px;
+  font-family: 'Scada';
+  font-size: 18px;
+  margin-left: 115px;
+}
+.one-event__autor-name {
+  line-height: 1.1;
+  font-family: 'Scada';
+  font-size: 18px;
+  margin-left: 115px;
+}
+.one-event__info {
+  margin-bottom: 30px;
+  height: 100px;
+}
+.one-event__info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-event__text {
+  font-family: 'Scada';
+  font-size: 15px;
+}
+.one-event__text p {
+  margin-bottom: 30px;
+}
+.one-event__tags {
+  margin-bottom: 45px;
+}
+.one-event__tags .icon-label {
+  color: #01aeea;
+  margin-right: 5px;
+  font-size: 16px;
+}
+.one-event__tag {
+  color: #8d8d8d;
+  padding: 4px 8px;
+  background: white;
+}
+.one-event__tag:hover {
+  text-decoration: none;
+}
+.one-event__shareblock-soc {
+  display: inline-block;
+  margin-right: 15px;
+}
+.one-event__shareblock-soc a {
+  background: #eb5427;
+  color: white;
+  height: 43px;
+  width: 43px;
+  display: block;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 10px;
+  float: left;
+  transition: all 0.2s;
+}
+.one-event__shareblock-soc a:hover {
+  text-decoration: none;
+  color: white;
+  background: #cc3d13;
+}
+.one-event__shareblock-mark {
+  display: block;
+  color: #8d8d8d;
+  padding: 2px 6px;
+  background: white;
+  border: 1px solid #c0c0c0;
+  float: left;
+  margin-top: 10px;
+  position: relative;
+}
+.one-event__shareblock-mark:before {
+  content: '';
+  border: 6px solid transparent;
+  border-right: 6px solid white;
+  position: absolute;
+  top: 6px;
+  left: -12px;
+  z-index: 3;
+}
+.one-event__shareblock-mark:after {
+  content: '';
+  border: 7px solid transparent;
+  border-right: 7px solid #b3b3b3;
+  position: absolute;
+  top: 5px;
+  left: -14px;
+  z-index: 2;
+}
+.one-event__title-h3 {
+  font-size: 30px;
+  line-height: 100px;
+  margin: 0;
+  font-family: 'Scada-Bold';
+}
+.one-event__title-h3 span {
+  color: #eb5427;
+}
+div.vote-wrap {
+  overflow: hidden;
+}
+div.vote-block {
+  position: relative;
+}
+div.vote-hover {
+  float: left;
+  cursor: pointer;
+}
+div.vote-stars {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.vote-active {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.vote-result {
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 12px;
+  padding-left: 190px;
+}
+div.vote-success {
+  clear: both;
+  color: #ccc;
+  font-size: 14px;
+  margin: 10px 0 0 10px;
+}
+div.border-wrap {
+  background-clip: border-box;
+  background-color: #ffffff;
+  background-origin: padding-box;
+  background-size: auto;
+  border: 1px solid #c0c0c0;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+div.border-wrap h1 {
+  text-align: center;
+  font-size: 24px;
+}
+div.border-wrap h2 {
+  font-size: 20px;
+}
+.gallery {
+  margin-bottom: 40px;
+}
+.gallery__thumbs {
+  height: 120px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+  z-index: 8;
+}
+.gallery__thumbs img {
+  height: 120px;
+  width: auto;
+  display: block;
+  float: left;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.gallery__thumbs img.active {
+  opacity: 1;
+}
+.gallery__thumbs img:hover {
+  opacity: 0.8;
+}
+.gallery__img-wrap {
+  width: 1300px;
+  height: 120px;
+  background: black;
+}
+.gallery__nav {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  top: 35px;
+  font-size: 30px;
+}
+.gallery__nav-left {
+  background: #01aeea;
+  color: white;
+  height: 50px;
+  left: 0;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.gallery__nav-left:hover {
+  background: #20c5fe;
+}
+.gallery__nav-right {
+  background: #01aeea;
+  color: white;
+  height: 50px;
+  line-height: 55px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 50px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.gallery__nav-right:hover {
+  background: #20c5fe;
+}
+.gallery__active {
+  height: 430px;
+  width: 100%;
+  background-size: cover !important;
+}
+.gallery__active_news-one {
+  height: 510px;
+}
+.comments__comment {
+  background: white;
+  margin-bottom: 20px;
+  min-height: 145px;
+}
+.comments__comment:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.comments__comment-img {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../../img/no-photo.png) no-repeat center center;
+}
+.comments__comment-info {
+  position: relative;
+}
+.comments__comment-autor {
+  line-height: 1.1;
+  font-family: Scada-bold;
+  font-size: 17px;
+  margin-left: 145px;
+  margin-top: 30px;
+}
+.comments__comment-text {
+  margin: 30px 30px 30px -7.5px;
+}
+.comments__comment-data {
+  line-height: 1.1;
+  font-family: Scada-bold;
+  font-size: 20px;
+  margin-left: 145px;
+  margin-top: 15px;
+  color: #eb5427;
+}
+.event-reg {
+  text-align: center;
+}
+.event-reg__top {
+  font-size: 24px;
+  font-family: 'Scada-bold';
+  margin-bottom: 15px;
+  color: #eb5427;
+  text-align: center;
+}
+.event-reg__top .icon-run-man {
+  color: #eb5427;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.event-reg__top span {
+  font-size: 16px;
+  color: #8d8d8d;
+  font-family: 'Scada';
+}
+.event-reg__top span span {
+  font-size: 24px;
+  font-family: 'Scada-bold';
+}
+.event-reg__bot {
+  display: inline-block;
+  color: #01aeea;
+  text-align: center;
+  font-family: 'Scada';
+  font-size: 16px;
+  margin-top: 15px;
+  transition: all 0.2s;
+}
+.event-reg__bot:hover {
+  text-decoration: none;
+}
+.event-reg__bot .icon-add-label {
+  font-size: 18px;
+  margin-right: 5px;
+  vertical-align: text-top;
+}
+.event-reg__footer {
+  text-align: left;
+  margin-bottom: 75px;
+  margin-top: -15px;
+}
+.event-reg__footer-item {
+  color: #eb5427;
+  font-size: 24px;
+  font-family: 'Scada-bold';
+  display: inline-block;
+  margin: 0 20px 0 0 ;
+}
+.event-reg__footer-item i {
+  color: #b3b3b3;
+  font-size: 21px;
+}
+.one-news__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.one-news__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-news__h1 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+.one-news__datatime {
+  font-size: 20px;
+  color: #eb5427;
+  font-family: 'Scada-bold';
+}
+.one-news__datatime-data {
+  padding-left: 30px;
+  position: relative;
+}
+.one-news__datatime-data i {
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  height: 20px;
+}
+.one-news__info {
+  margin-bottom: 30px;
+}
+.one-news__info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.one-news__geo {
+  color: black;
+  position: relative;
+  font-family: 'Scada';
+  font-size: 18px;
+}
+.one-news__geo i {
+  position: absolute;
+  left: -30px;
+  top: 3px;
+  height: 20px;
+  color: #a6a6a6;
+  font-size: 20px;
+}
+.one-news__text,
+.one-news__text-before {
+  font-family: 'Scada';
+  font-size: 15px;
+}
+.one-news__text p,
+.one-news__text-before p {
+  margin-bottom: 30px;
+}
+.one-news__text h4,
+.one-news__text-before h4 {
+  font-size: 20px;
+  font-family: 'Scada-Bold';
+  margin-bottom: 30px;
+}
+.one-news__text ul,
+.one-news__text-before ul {
+  margin-bottom: 45px;
+}
+.one-news__text ul li,
+.one-news__text-before ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.one-news__text ul li:before,
+.one-news__text-before ul li:before {
+  content: "\2014\0020";
+  padding-right: 10px;
+}
+.one-news__text ul li a,
+.one-news__text-before ul li a {
+  color: black;
+  border-bottom: 1px solid;
+}
+.one-news__text ul li a:hover,
+.one-news__text-before ul li a:hover {
+  text-decoration: none;
+  color: #01aeea;
+}
+.one-news__text-before {
+  margin-top: 60px;
+}
+.one-news__files-list li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.one-news__files-list li:before {
+  content: "";
+  display: none;
+}
+.one-news__files-list li a {
+  color: black;
+  border-bottom: 1px solid;
+}
+.one-news__word {
+  margin-left: 30px;
+}
+.one-news__word:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../../img/file-w.svg) no-repeat;
+  display: block;
+  position: absolute;
+}
+.one-news__pdf {
+  margin-left: 30px;
+}
+.one-news__pdf:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../../img/file-pdf.svg) no-repeat;
+  display: block;
+  position: absolute;
+}
+.lk__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 50px;
+}
+.lk__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lk__h2 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+.lk__h2_elect i {
+  color: #eb5427;
+  font-size: 35px;
+  margin-right: 15px;
+}
+.lk__h2 span {
+  color: #eb5427;
+}
+.lk__userinfo {
+  background: white;
+  padding: 40px;
+  margin-bottom: 55px;
+  position: relative;
+}
+.lk__userinfo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lk__userinfo-edit {
+  background: #01aeea;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 19px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.lk__userinfo-edit:hover {
+  background: #20c5fe;
+}
+.lk__userinfo-title {
+  color: #8d8d8d;
+  font-family: Scada-Bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.lk__userinfo-comment {
+  margin-left: 220px;
+  margin-top: 30px;
+}
+.lk__userinfo-comment-quantity {
+  display: inline-block;
+  background: #5ec66f;
+  color: white;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-family: Scada-Bold;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 7.5px;
+  vertical-align: middle;
+}
+.lk__userinfo-comment a {
+  color: #5ec66f;
+  font-family: Scada;
+  font-size: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+.lk__userinfo-comment a:hover {
+  text-decoration: none;
+}
+.lk__userphoto {
+  width: 180px;
+  height: 180px;
+  display: block;
+  position: relative;
+  background: black;
+  background-size: cover !important;
+  float: left;
+}
+.lk__userphoto:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background: url(../../img/blue-angle.svg);
+}
+.lk__userphoto:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: url(../../img/red-angle.svg);
+}
+.lk__name {
+  margin-left: 220px;
+  color: #000;
+  font-family: Scada-Bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.lk__name_lecturer {
+  margin-top: 0;
+}
+.lk__subscribe {
+  margin-left: 220px;
+}
+.lk__subscribe i {
+  font-size: 22px;
+  margin-right: 5px;
+  vertical-align: sub;
+}
+.lk__contactblock {
+  margin-top: 30px;
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.lk__contactblock i {
+  position: absolute;
+  left: -30px;
+  top: 3px;
+  font-size: 18px;
+}
+.lk__contactblock_lecturer {
+  margin-top: 5px;
+}
+.lk__contactblock-btn {
+  margin-left: -30px;
+}
+.lk__contactblock-btn i {
+  margin-right: 5px;
+}
+.lk__contactblock-btn .btn {
+  margin-top: 5px !important;
+}
+.lk__tell {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  color: black;
+}
+.lk__tell:hover {
+  text-decoration: none;
+}
+.lk__mail,
+.lk__skype {
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  color: black;
+  text-decoration: underline;
+}
+.lk__elect {
+  margin-bottom: 30px;
+}
+.lk__elect:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lk__elect .activities-calendar__return {
+  margin-right: 0;
+}
+.lk__elect .activities-calendar__return-link {
+  line-height: 30px;
+}
+.lk__elect_lecturer {
+  margin-bottom: 0;
+}
+.lk__done:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lk__done .activities-calendar__return {
+  margin-right: 0;
+}
+.lk__done .activities-calendar__return-link {
+  line-height: 30px;
+}
+.lk__position {
+  margin-left: 220px;
+}
+.lk__position-text {
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.lk__honors {
+  margin-left: 220px;
+  margin-top: 30px;
+}
+.lk__honors-item {
+  font-family: 'Scada';
+  font-size: 16px;
+  color: black;
+  padding-right: 30px;
+}
+.lk__honors-item span {
+  font-family: 'Scada-bold';
+  font-size: 18px;
+  margin-right: 7px;
+  width: 45px;
+  display: inline-block;
+}
+.lk__rezult {
+  margin-left: 0;
+  margin-top: 30px;
+}
+.lk__rezult i {
+  position: absolute;
+  left: -30px;
+  top: 7px;
+  font-size: 18px;
+  color: #01aeea;
+  font-size: 20px;
+}
+.lk__rezult-item {
+  display: block;
+  position: relative;
+  color: black;
+  font-family: 'Scada';
+  font-size: 16px;
+  text-decoration: underline;
+}
+.lk__rezult-item:hover {
+  text-decoration: none;
+}
+.lk__rezult-item span {
+  font-size: 24px;
+  font-family: 'Scada-bold';
+  display: inline-block;
+  min-width: 25px;
+  margin-right: 7.5px;
+}
+.feedback-events {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 50px;
+}
+.feedback-events:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.feedback-events__img {
+  background-size: cover !important;
+  background: url('../../img/no-photo.png') no-repeat center center;
+  border-radius: 50%;
+  height: 100px;
+  left: 20px;
+  position: absolute;
+  top: -10px;
+  width: 100px;
+}
+.feedback-events__info {
+  position: relative;
+}
+.feedback-events__name {
+  line-height: 1.1;
+  font-family: Scada-bold;
+  font-size: 17px;
+  margin-left: 145px;
+  margin-top: 0;
+}
+.feedback-events__text {
+  border-bottom: 1px solid #c0c0c0;
+  color: #8d8d8d;
+  font-family: Scada-Italic;
+  font-size: 15px;
+  margin: 30px 0 20px;
+  padding-bottom: 20px;
+  height: 165px;
+}
+.feedback-events__data {
+  line-height: 1.1;
+  color: #eb5427;
+  font-family: Scada-bold;
+  font-size: 20px;
+  margin-left: 145px;
+  margin-top: 15px;
+}
+.feedback-events__iventname {
+  font-family: Scada-bold;
+  font-size: 17px;
+  line-height: 1.2;
+}
+.feedback-events__iventname-type {
+  color: #8d8d8d;
+  font-family: Scada;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.docblock {
+  padding: 30px;
+  background: white;
+}
+.docblock__title {
+  margin: 0;
+  margin-bottom: 15px;
+  color: #000;
+  font-family: Scada-bold;
+  font-size: 26px;
+  padding: 0 0 15px 0;
+  text-align: left;
+}
+.docblock__list {
+  margin-bottom: 45px;
+}
+.docblock__item {
+  border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
+  margin-top: -1px;
+  padding: 10px 40px  10px 0;
+  font-family: Scada;
+  font-size: 15px;
+  position: relative;
+}
+.docblock__pdf {
+  transition: all 02.s;
+}
+.docblock__pdf:before {
+  content: '';
+  background: url('../../img/file-pdf.svg') no-repeat;
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 20px;
+}
+.docblock__doc {
+  transition: all 02.s;
+}
+.docblock__doc:before {
+  content: '';
+  background: url('../../img/file-w.svg') no-repeat;
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 20px;
+}
+.docblock-new {
+  border-top: 2px solid #dddfe3;
+}
+.docblock-new__item {
+  padding: 15px;
+  padding-left: 30px;
+  border-bottom: 2px solid #dddfe3;
+  font-family: Scada;
+  position: relative;
+}
+.docblock-new__item span {
+  color: #a1a1a1;
+  font-size: 15px;
+}
+.docblock-new__item_doc:before {
+  content: '';
+  display: block;
+  background: url('../../img/file-w.svg') no-repeat;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 18px;
+}
+.docblock-new__item_pdf:before {
+  content: '';
+  display: block;
+  background: url('../../img/file-pdf.svg') no-repeat;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 18px;
+}
+.docblock-new__item_img:before {
+  content: '';
+  display: block;
+  background: url('../../img/file-img.svg') no-repeat;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 18px;
+}
+.docblock-new__link {
+  color: black;
+  text-decoration: underline;
+  font-size: 17px;
+  font-family: Scada;
+}
+.docblock-new__link:hover {
+  color: #01aeea;
+  text-decoration: none;
+}
+.docblock-new__link:visited {
+  color: black;
+  text-decoration: underline;
+}
+.docblock-new__link:visited:hover {
+  color: #01aeea;
+  text-decoration: none;
+}
+.mymarks {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 50px;
+}
+.mymarks:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.staticpage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.staticpage__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+  padding-top: 45px;
+}
+.staticpage__menu {
+  background: white;
+}
+.staticpage__menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.staticpage__menu-list {
+  padding: 20px 10px 5px;
+}
+.staticpage__menu-item {
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 5px;
+}
+.staticpage__menu-item.active .staticpage__menu-link {
+  background: #01aeea;
+  text-decoration: none;
+  color: white;
+}
+.staticpage__menu-link {
+  padding: 5px 15px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Scada-Bold;
+  font-size: 17px;
+  transition: all 0.2s;
+  color: #01aeea;
+}
+.staticpage__menu-link:hover {
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+.staticpage__content {
+  font-size: 15px;
+  font-family: Scada;
+  color: black;
+  padding-bottom: 130px;
+}
+.staticpage__content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.staticpage__content p {
+  font-size: 15px;
+  font-family: Scada;
+  color: black;
+}
+.staticpage__content strong {
+  font-family: Scada-Bold;
+}
+.staticpage__content h2 {
+  font-size: 40px;
+  margin: 0;
+  font-family: Scada-Bold;
+  margin-bottom: 30px;
+  color: black;
+}
+.staticpage__content h3 {
+  font-size: 20px;
+  margin: 0;
+  font-family: Scada-Bold;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.staticpage__content p {
+  margin-bottom: 30px;
+}
+.staticpage__quote {
+  margin-bottom: 60px;
+  padding-left: 70px;
+  position: relative;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: Scada;
+  color: black;
+}
+.staticpage__quote:before {
+  content: '';
+  width: 46px;
+  height: 46px;
+  background: url(../../img/quote-1.svg) no-repeat;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+.staticpage__quote-autor {
+  color: #a1a1a1;
+  margin-top: 30px;
+  text-align: right;
+}
+.staticpage__year {
+  font-size: 48px;
+  font-family: Scada-bold;
+  float: left;
+  height: 48px;
+  margin-top: -12px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.staticpage__list {
+  margin-left: 25px;
+  margin-bottom: 45px;
+}
+.staticpage__item {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.staticpage__item:before {
+  content: "\2014\0020";
+  padding-right: 10px;
+  margin-left: -25px;
+}
+.staticpage__like {
+  position: relative;
+}
+.staticpage__like-wrap {
+  display: block;
+  padding-left: 62px;
+  margin: 10px 0;
+}
+.staticpage__like span {
+  color: white;
+  background: #01aeea;
+  text-transform: uppercase;
+  font-family: Scada-bold;
+  padding: 10px 15px 8px;
+  display: block;
+  line-height: 0.8;
+}
+.staticpage__like:before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background: #eb5427;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.staticpage__like:after {
+  content: '';
+  background: url(../../img/like-big.svg) center no-repeat;
+  background-size: 40px 40px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.error__contentbox {
+  width: 360px;
+}
+.error-page {
+  background: url(../../img/error.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+.error-header {
+  display: none;
+}
+.error__icon {
+  background: url(../../img/er404.svg) no-repeat center;
+  background-size: auto 120px;
+  height: 120px;
+  margin-bottom: 15px;
+  margin-top: 95px;
+}
+.error__icon-text {
+  text-align: center;
+  font-family: 'Scada-bold';
+  font-size: 27px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+.error__btnblock-text {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #8d8d8d;
+  font-family: 'Scada';
+  font-size: 18px;
+}
+.working {
+  background: url(../../img/working.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  height: 665px;
+}
+.working__contentbox {
+  width: 450px;
+}
+.working__icon {
+  background: url(../../img/icon1.svg) no-repeat center;
+  background-size: auto 220px;
+  height: 220px;
+  margin-bottom: 30px;
+  margin-top: 65px;
+}
+.working__icon-text {
+  text-align: center;
+  font-family: 'Scada-bold';
+  font-size: 40px;
+  margin-bottom: 75px;
+  color: white;
+  line-height: 1;
+}
+.working__icon-text span {
+  font-size: 72px;
+}
+.working__btnblock-text {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #8d8d8d;
+  font-family: 'Scada';
+  font-size: 18px;
+}
+.working .error__btnblock {
+  width: 390px;
+  margin: 0 auto;
+}
+.searchresult__item {
+  border-top: 2px solid #dadada;
+  border-bottom: 2px solid #dadada;
+  padding: 20px 0;
+  margin-top: -2px;
+}
+.searchresult__item-footer {
+  font-family: 'Scada';
+  height: 30px;
+}
+.searchresult__item-footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.searchresult__name {
+  font-family: 'Scada-Bold';
+  font-size: 18px;
+  color: black;
+  margin: 0 0 15px 0;
+}
+.searchresult__text {
+  font-family: 'Scada';
+  font-size: 15px;
+  color: #5a5a5a;
+  margin-bottom: 15px;
+}
+.searchresult__link {
+  color: #01aeea;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.searchresult__link:hover {
+  text-decoration: none;
+}
+.searchresult__link:visited {
+  color: #01aeea;
+  text-decoration: none;
+}
+.searchresult__section-name {
+  text-transform: uppercase;
+  color: #5a5a5a;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.searchresult__time {
+  display: inline-block;
+  color: #5a5a5a;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.searchresult__time i {
+  color: #a6a6a6;
+}
+.searchresult__tags {
+  display: inline-block;
+}
+.searchresult__tags .tags__tag {
+  font-size: 14px;
+  background: #e6e6e6;
+}
+.searchresult__tags .tags__tag:hover,
+.searchresult__tags .tags__tag:visited:hover {
+  background: #01aeea;
+  color: white;
+  text-decoration: none;
+}
+.searchresult__tags .tags__tag:visited {
+  color: #8d8d8d;
+  background: #e6e6e6;
+  text-decoration: none;
+}
+.searchresult__tags .tags__tag:visited {
+  color: #8d8d8d;
+  background: #e6e6e6;
+  text-decoration: none;
+}
+.searchresult-filter .right-menu__title {
+  font-size: 20px;
+  color: #eb5427;
+}
+.searchresult-filter .tags__tag {
+  font-size: 15px;
+  padding: 4px 10px;
+  line-height: 2;
+}
+.searchresult-filter__dateblock:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.searchresult-filter__dateblock-value {
+  color: #8d8d8d;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.mark {
+  background: #eb5427 !important;
+  color: white !important;
+}
+.contacts h2 {
+  font-size: 40px;
+  margin: 0 0 30px;
+  font-family: Scada-Bold;
+  color: #000;
+  border-bottom: 2px #dddfe3 solid;
+  padding-bottom: 40px;
+}
+.contacts__info {
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.contacts__info-left {
+  float: left;
+  width: 440px;
+}
+.contacts__info-right {
+  float: left;
+}
+.contacts__tell {
+  font-family: Scada-Bold;
+  color: black;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+.contacts__tell i {
+  color: #01aeea;
+  font-size: 23px;
+  margin-right: 15px;
+}
+.contacts__mail {
+  font-family: Scada;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.contacts__mail i {
+  color: #01aeea;
+  font-size: 20px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.contacts__mail a {
+  color: black;
+  text-decoration: underline;
+}
+.contacts__mail a:hover {
+  color: #01aeea;
+  text-decoration: none;
+}
+.contacts__time {
+  font-family: Scada;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  position: relative;
+}
+.contacts__time i {
+  color: #01aeea;
+  font-size: 25px;
+  margin-right: 7.5px;
+  position: absolute;
+  top: 0;
+  left: -35px;
+}
+.contacts__time span {
+  color: #666666;
+}
+.contacts_map {
+  width: 100%;
+  height: 330px;
+}
+.contacts_photo {
+  width: 100%;
+  height: 330px;
+  background: red;
+  margin-bottom: 135px;
+  background: url(../../img/map-photo.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.contacts_photo-geo {
+  background: white;
+  color: black;
+  padding: 40px 55px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  font-size: 24px;
+  font-family: scada;
+  line-height: 28px;
+}
+.contacts_photo-metro {
+  font-family: Scada-Bold;
+  margin-top: 15px;
+  line-height: 33px;
+}
+.contacts_photo-metro .icon-metro {
+  background: url(../../img/metro-icon.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.contacts__notMenu .contacts__info {
+  margin-bottom: 45px;
+}
+.contacts__notMenu .contacts__info-right {
+  float: right;
+}
+.contacts__notMenu .contacts__info-left {
+  width: 405px;
+}
+.contacts__notMenu .contacts__info-left_geo {
+  position: relative;
+  float: left;
+  width: auto;
+}
+.contacts__notMenu .contacts__info-left_geo-text {
+  font-size: 20px;
+  font-family: Scada;
+  line-height: 1.3;
+}
+.contacts__notMenu .contacts__info-left_geo .contacts_photo-metro {
+  font-family: Scada-Bold;
+  margin-top: 10px;
+  line-height: 33px;
+  font-size: 22px;
+}
+.contacts__notMenu .contacts__info-left_geo .icon-buld {
+  color: #01aeea;
+  font-size: 25px;
+  margin-right: 7.5px;
+  position: absolute;
+  top: 0;
+  left: -35px;
+}
+.contacts__notMenu .contacts_photo {
+  width: 330px;
+  margin-top: -330px;
+}
+.contacts__notMenu .contacts_photo-geo {
+  display: none;
+}
+.partners {
+  padding-bottom: 130px;
+}
+.partners h2 {
+  font-size: 40px;
+  margin: 0;
+  font-family: Scada-Bold;
+  color: #000;
+  border-bottom: 2px #dddfe3 solid;
+  padding-bottom: 40px;
+}
+.partners h3 {
+  font-size: 22px;
+  margin: 0 0 30px;
+  font-family: Scada-Bold;
+  color: #000;
+  position: relative;
+  padding-left: 70px;
+}
+.partners h3:before {
+  content: '';
+  background: url(../../img/v-logo.png) no-repeat;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 57px;
+  height: 46px;
+  background-size: 100%;
+}
+.partners__item {
+  border-bottom: 2px #dddfe3 solid;
+  margin-top: 30px;
+}
+.partners__item-text {
+  color: #727272;
+  font-family: Scada;
+  font-size: 15px;
+}
+.partners__item-text p {
+  color: #727272;
+  font-family: Scada;
+  font-size: 15px;
+  margin-bottom: 30px !important;
+}
+.sovet-page__text ul {
+  margin-left: 25px;
+  margin-bottom: 45px;
+}
+.sovet-page__text li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-family: Scada;
+  font-size: 16px;
+}
+.sovet-page__text li:before {
+  content: "\2014\0020";
+  padding-right: 10px;
+  margin-left: -25px;
+}
+.sovet-page hr {
+  border-top: 2px solid #dddfe3;
+}
+.sovet-page h3 {
+  font-family: Scada-Bold !important;
+  font-size: 30px;
+  line-height: 1.2;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.sovet-page .right-menu__title {
+  margin-bottom: 0;
+}
+.sovet-page .docblock-new__item_doc {
+  padding-bottom: 35px;
+}
+.sovet-page__title {
+  margin-bottom: 0 !important;
+  margin-top: 45px !important;
+}
+.sovet-page__title-label {
+  font-family: Scada-Italic;
+  color: #a1a1a1;
+  font-size: 15px;
+}
+.sovet-page__item {
+  background: white;
+  float: left;
+  height: 175px;
+  margin-bottom: 15px;
+  margin-right: 7.5px;
+  padding: 30px;
+  position: relative;
+  width: calc(50% - 7.5px);
+}
+.sovet-page__item:nth-child(2n) {
+  margin-left: 7.5px;
+  margin-right: 0;
+}
+.sovet-page__item-name {
+  color: black;
+  font-family: Scada-Bold;
+  font-size: 19px;
+  margin-bottom: 8px;
+  padding-left: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sovet-page__item-text {
+  color: #9b9b9b;
+  font-family: Scada;
+  font-size: 15px;
+  padding-left: 130px;
+  line-height: 1.4;
+  overflow: hidden;
+  height: 84px;
+}
+.sovet-page__item-wrap {
+  margin-top: 30px;
+}
+.sovet-page__item-img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../../img/no-photo.png) center center no-repeat;
+}
+.sovet-page__contacts {
+  font-family: Scada;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #a1a1a1;
+}
+.sovet-page__contacts strong {
+  font-family: Scada-Bold;
+  color: black;
+}
+.sovet-page__contacts-tell {
+  margin-top: 15px;
+  position: relative;
+  margin-bottom: 5px;
+  color: black;
+}
+.sovet-page__contacts-tell i {
+  color: #eb5427;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.sovet-page__contacts-mail {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+.sovet-page__contacts-mail i {
+  color: #eb5427;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.sovet-page__contacts-mail a {
+  color: black;
+  text-decoration: underline;
+}
+.sovet-page__timeivent {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: Scada;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+.sovet-page__timeivent-data {
+  color: #a1a1a1;
+  margin-top: 5px;
+}
+.sovet-page__timeivent-data i {
+  vertical-align: middle;
+  margin-right: 5px;
+  color: #d8d8d8;
+  margin-top: -3px;
+  display: inline-block;
+}
+.sovet-page .right-menu__back {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.regions h1 {
+  font-size: 40px;
+  margin: 0 0 0;
+  font-family: Scada-Bold;
+  color: #000;
+}
+.regions__item {
+  background: white;
+  margin-bottom: 15px;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  margin-top: -2px;
+}
+.regions__item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.regions__item-right {
+  padding-left: 410px;
+}
+.regions__menu-itemname {
+  font-size: 22px;
+  font-family: Scada-Bold;
+  color: black;
+  border-top: 2px #dddfe3 solid;
+  padding: 20px 0 20px 45px;
+  border-bottom: 2px #dddfe3 solid;
+  margin-top: -2px;
+  position: relative;
+}
+.regions__menu-itemname span {
+  color: #eb5427;
+}
+.regions__menu-itemname .icon-doun {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  padding: 0;
+  margin: 0;
+  left: -10px;
+}
+.regions__menu-itemname .icon-doun:hover {
+  color: #01aeea;
+}
+.regions__menu-item.active .regions__menu-itemname {
+  color: #eb5427;
+  font-size: 28px;
+  padding: 30px 0 30px 45px;
+}
+.regions__menu-item.active .regions__menu-itemname:last-child {
+  border-bottom: none;
+}
+.regions__menu-item.active .icon-doun {
+  font-size: 40px;
+  top: 30px;
+  position: absolute;
+}
+.regions__menu-item.active .icon-doun:before {
+  transform: rotate(180deg);
+  display: block;
+}
+.regions__menu-item.active .regions__submenu-list {
+  display: block;
+  margin-bottom: 45px;
+}
+.regions__menu-item .regions__submenu-list {
+  display: none;
+}
+.regions__number {
+  position: absolute;
+  height: 100%;
+  color: white;
+  background: #eb5427;
+  font-family: Scada-Bold;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  line-height: 115px;
+}
+.regions__geo {
+  float: left;
+  width: 325px;
+  margin-left: 85px;
+  height: 100%;
+  min-height: 95px;
+  padding-top: 30px;
+  font-family: Scada-Bold;
+  font-size: 22px;
+  line-height: 1.1;
+}
+.regions__manager {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #d8d8d8;
+  font-family: Scada;
+}
+.regions__name {
+  font-size: 17px;
+  color: Black;
+  font-family: Scada-Bold;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.regions__position {
+  font-size: 15px;
+  color: Black;
+  font-family: Scada;
+  margin-right: 20px;
+}
+.mediateka__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.mediateka__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mediateka__h1 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+.mediateka__item {
+  background: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+.mediateka__img {
+  height: 200px;
+  position: relative;
+}
+.mediateka__info {
+  height: 230px;
+}
+.mediateka__info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mediateka__data {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 7.5px;
+  font-family: 'Scada';
+  color: #9b9b9b;
+  font-size: 14px;
+}
+.mediateka__data i {
+  margin-right: 5px;
+  color: #d3d3d3;
+  font-size: 16px;
+  vertical-align: sub;
+  display: inline-block;
+  float: left;
+}
+.mediateka__data span {
+  display: inline-block;
+  float: left;
+  margin-top: -1px;
+}
+.mediateka__category {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-family: 'Scada';
+  color: #9b9b9b;
+  max-width: 152px;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+  margin-top: -1px;
+}
+.mediateka__footer {
+  background: white;
+  padding: 20px 15px;
+  height: 165px;
+}
+.mediateka__title {
+  font-family: 'Scada-bold';
+  display: block;
+  color: black;
+  height: 35px;
+  font-size: 15px;
+  line-height: 1.2;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.mediateka__title:hover {
+  color: black;
+}
+.mediateka__value {
+  background: #01aeea;
+  top: 0px;
+  color: white;
+  font-family: 'Scada-bold';
+  font-size: 28px;
+  height: 85px;
+  right: 0;
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  width: 60px;
+}
+.mediateka__value .icon-photo,
+.mediateka__value .icon-play {
+  width: 100%;
+  display: block;
+  margin-top: 14px;
+  font-size: 28px;
+}
+.mediateka__value_video {
+  background: #eb5427;
+}
+.mediateka__menu h3 {
+  color: #a1a1a1;
+  font-family: 'Scada';
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 0 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.mediateka__menu .right-menu__title {
+  font-size: 20px;
+  color: #eb5427;
+  font-family: Scada-Bold !important;
+  line-height: 1.2;
+  margin: 0;
+  padding: 5px 0 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.photo-album__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.photo-album__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.photo-album__h1 {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 5px;
+  line-height: 1;
+  color: #eb5427;
+}
+.photo-album__title {
+  margin: 0;
+  font-family: 'Scada-Bold';
+  font-size: 40px;
+  padding-bottom: 30px;
+  line-height: 1;
+  color: black;
+}
+.photo-album__white {
+  background: white;
+  padding: 25px 55px;
+}
+.photo-album__white-title {
+  margin: 0 0 10px 0;
+  font-family: 'Scada';
+  color: #a1a1a1;
+  font-size: 18px;
+  position: relative;
+}
+.photo-album__white-title i {
+  position: absolute;
+  left: -25px;
+  top: 0;
+  color: #c0bebe;
+}
+.photo-album__white-text {
+  margin: 0;
+  font-family: 'Scada';
+  color: black;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.photo-album__info {
+  margin-bottom: 45px;
+}
+.photo-album__info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.photo-album__category {
+  margin: 0 0 10px 0;
+  font-family: 'Scada';
+  color: #a1a1a1;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.photo-album__data,
+.photo-album__geo {
+  font-size: 20px;
+  color: black;
+  font-family: 'Scada';
+  padding-left: 30px;
+  position: relative;
+}
+.photo-album__data i,
+.photo-album__geo i {
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  height: 20px;
+  color: #a1a1a1;
+}
+.photo-album__photo {
+  margin-bottom: 15px;
+}
+.photo-album__photo-title {
+  margin-bottom: 5px;
+  font-family: 'Scada-Bold';
+  font-size: 24px;
+  line-height: 1;
+  color: black;
+}
+.photo-album__photo-data {
+  font-size: 16px;
+  color: #a1a1a1;
+  font-family: 'Scada';
+}
+.photo-album__text {
+  font-family: 'Scada';
+  font-size: 15px;
+  color: black;
+}
+.photo-album__text p {
+  margin-bottom: 30px;
+}
+.photo-album__text h4 {
+  font-size: 20px;
+  font-family: 'Scada-Bold';
+  margin-bottom: 30px;
+}
+.photo-album__text ul {
+  margin-bottom: 45px;
+}
+.photo-album__text ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.photo-album__text ul li:before {
+  content: "\2014\0020";
+  padding-right: 10px;
+}
+.photo-album__text ul li a {
+  color: black;
+  border-bottom: 1px solid;
+}
+.photo-album__text ul li a:hover {
+  text-decoration: none;
+  color: #01aeea;
+}
+.photo-album__text-before {
+  margin-top: 45px;
+}
+.photo-album__v-gallery {
+  height: 480px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.photo-album__v-gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.photo-album__v-gallery-wrap {
+  height: 480px;
+  width: calc(100% - 30px);
+  background: white;
+  margin-top: -480px;
+  margin-left: 15px;
+}
+.photo-album__v-gallery-video {
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+.photo-album__v-gallery-videotime {
+  background: #01aeea;
+  color: white;
+  font-size: 24px;
+  font-family: 'Scada-Bold';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 0 9px;
+  line-height: 1;
+  width: 85px;
+  text-align: center;
+  z-index: 500;
+}
+.photo-album__v-gallery-item {
+  background: white;
+  padding: 7.5px 15px 7.5px 30px;
+  cursor: pointer;
+  position: relative;
+}
+.photo-album__v-gallery-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.photo-album__v-gallery-item:hover {
+  background: #ebebeb;
+}
+.photo-album__v-gallery-item.active {
+  background: #eb5427;
+}
+.photo-album__v-gallery-item.active .photo-album__v-gallery-list-title,
+.photo-album__v-gallery-item.active .photo-album__v-gallery-data {
+  color: white;
+}
+.photo-album__v-gallery-list {
+  overflow: auto;
+  height: 480px;
+  margin-left: -30px;
+}
+.photo-album__v-gallery-list-title {
+  font-size: 14px;
+  font-family: 'Scada';
+  margin-top: 0;
+  padding-left: 10px;
+  overflow: hidden;
+  height: 45px;
+}
+.photo-album__v-gallery-data {
+  font-family: 'Scada';
+  color: #9b9b9b;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.photo-album__v-gallery-prev {
+  width: 120px;
+  height: 81px;
+  background: red;
+  float: left;
+  background-size: cover !important;
+}
+.photo-album__v-gallery-prev-info {
+  float: left;
+  height: 81px;
+  overflow: hidden;
+  width: calc(100% - 120px);
+}
+.photo-album__v-gallery-prevtime {
+  background: #01aeea;
+  color: white;
+  font-size: 14px;
+  font-family: 'Scada';
+  position: absolute;
+  top: 7.5px;
+  left: 110px;
+  padding: 2px 0 1px;
+  line-height: 1;
+  width: 40px;
+  text-align: center;
+}
+.regions-m:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.regions-m__search {
+  position: relative;
+}
+.regions-m__search input {
+  width: 100%;
+  margin-top: 25px;
+  padding: 8px 10px;
+  border: 2px solid #dddfe3;
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.regions-m__search i {
+  position: absolute;
+  top: 36px;
+  right: 12px;
+  color: #01aeea;
+  font-size: 18px;
+}
+.regions-m__title {
+  color: black;
+  font-family: 'Scada-Bold';
+  font-size: 19px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.regions-m__item {
+  font-family: 'Scada';
+  color: #6e6e6e;
+  font-size: 15px;
+  list-style: none;
+  margin-bottom: 6px;
+}
+.regions-m__item-link {
+  font-family: 'Scada';
+  color: #6e6e6e !important;
+  font-size: 15px;
+  list-style: none;
+}
+.regions-m__item-link:hover {
+  color: #01aeea;
+  text-decoration: none;
+}
+.regions-m_mini {
+  padding: 15px;
+  background: white;
+  display: none;
+}
+.regions-m_mini.active {
+  display: block;
+  position: absolute;
+  z-index: 500;
+  -webkit-box-shadow: 0 0 31px -7px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 0 31px -7px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 31px -7px rgba(0, 0, 0, 0.24);
+  font-family: 'Scada';
+  font-size: 15px;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+.regions-m_mini-region {
+  color: #a1a1a1;
+  display: inline-block;
+}
+.regions-m_mini-name {
+  display: inline-block;
+}
+.regions-m_mini-btn {
+  display: inline-block;
+  margin-left: 15px;
+}
+.question-answer h1 {
+  border-bottom: 2px #dddfe3 solid;
+  margin-bottom: 5px;
+  padding-top: 30px;
+}
+.question-answer__box {
+  background: white;
+  margin-bottom: 22px;
+  display: flex;
+}
+.question-answer__box-blue {
+  background: #01aeea;
+  padding: 30px 0;
+  width: 150px;
+  color: white;
+  text-align: center;
+  flex: 0 0 150px;
+}
+.question-answer__box-blue i {
+  font-size: 40px;
+}
+.question-answer__box-data {
+  font-family: 'Scada-Bold';
+  font-size: 18px;
+  text-align: center;
+}
+.question-answer__box-question {
+  margin-top: 10px;
+  font-family: 'Scada';
+  font-size: 16px;
+}
+.question-answer__box-content {
+  padding: 20px 30px;
+}
+.question-answer__box-title {
+  font-family: 'Scada-Bold';
+  font-size: 19px;
+  color: black;
+}
+.question-answer__box-answer {
+  font-family: 'Scada';
+  font-size: 16px;
+  color: black;
+  margin-top: 25px;
+  padding-left: 40px;
+  border-top: 2px solid  #dddfe3;
+  padding-top: 27px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.question-answer__box-answer i {
+  position: absolute;
+  color: #c7c9cd;
+  font-size: 33px;
+  left: -4px;
+}
+.question-answer__box-author {
+  font-family: 'Scada';
+  font-size: 16px;
+  color: #a1a1a1;
+  margin-top: 5px;
+}
+.question-answer__white-top {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 30px 22px;
+  margin-bottom: 40px;
+}
+.question-answer__white-top-wrap {
+  display: flex;
+}
+.question-answer__white-top__left-block {
+  flex: 0 0 37%;
+}
+.question-answer__white-top__right-block {
+  flex: 1 0 1px;
+  padding-left: 20px;
+}
+.question-answer__white-top__input {
+  width: 100%;
+  margin: 0 20px 9px 0;
+  font-size: 15px;
+  padding: 8px 12px;
+  border: 2px solid #dddfe3;
+  font-family: 'Scada';
+}
+.question-answer__white-top__text {
+  font-family: 'Scada-Italic';
+  font-size: 16px;
+  line-height: 3em;
+  color: #a1a1a1;
+}
+.question-answer__white-top textarea {
+  width: 100%;
+  height: 91px;
+  border: 2px solid #dddfe3;
+  resize: none;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Scada';
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.question-answer__white-top textarea::-webkit-input-placeholder {
+  color: #a1a1a1 !important;
+}
+.question-answer__white-top textarea::-moz-placeholder {
+  color: #a1a1a1 !important;
+}
+.question-answer__white-top textarea:-moz-placeholder {
+  color: #a1a1a1 !important;
+}
+.question-answer__white-top textarea:-ms-input-placeholder {
+  color: #a1a1a1 !important;
+}
+.question-answer__white-top .btn {
+  font-size: 17px;
+  line-height: 17px;
+}
+.question-title {
+  font-family: 'Scada-Bold';
+  font-size: 28px;
+  padding: 16px 0px 25px;
+  line-height: 28px;
+}
+.answer {
+  padding-top: 48px;
+  background: #f3f3f3;
+  min-height: 780px;
+  display: flex;
+  justify-content: center;
+}
+.answer__contentbox {
+  width: 657px;
+}
+.answer h2 {
+  font-size: 40px;
+  margin: 0 0 26px;
+  font-family: Scada-Bold;
+  color: #000;
+  border-bottom: 2px #dddfe3 solid;
+  padding-bottom: 33px;
+  text-align: center;
+}
+.answer__block_row {
+  width: 100%;
+  padding-top: 19px;
+  min-height: 28px;
+}
+.answer__block_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.answer__block_row:first-child {
+  padding-top: 0;
+}
+.answer__block_row:last-child {
+  margin-bottom: 35px;
+}
+.answer__block_row_buttons {
+  margin-bottom: 0 !important;
+}
+.answer__block_row_buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.answer__name {
+  float: left;
+  width: 12%;
+  text-align: right;
+  color: #a1a1a1;
+  font-family: ;
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-family: 'Scada';
+}
+.answer__name_w {
+  float: left;
+  width: 60px;
+  text-align: right;
+  color: #a1a1a1;
+  font-family: ;
+  padding-right: 30px;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-family: 'Scada';
+}
+.answer__text {
+  float: left;
+  width: 87%;
+  padding-left: 10px;
+  font-family: Scada-Bold;
+  color: #000;
+  font-size: 19px;
+}
+.answer__block_white {
+  background-color: #fff;
+  padding: 30px;
+}
+.answer__block_white_row {
+  margin-bottom: 20px;
+}
+.answer__textarea {
+  width: calc(100% - 60px);
+  height: 190px;
+  border: 2px solid #dddfe3;
+  resize: none;
+  padding: 5px;
+  font-size: 16px;
+  float: left;
+}
+.answer__input {
+  display: none;
+}
+.answer__label {
+  display: inline-block;
+  padding-left: 60px;
+  font-family: Scada;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.answer__input + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 9px 0 0;
+  vertical-align: middle;
+  background: url(../../img/checkbox_oncheck.png) no-repeat;
+  cursor: pointer;
+}
+.answer__input:checked + label span {
+  background: url(../../img/checkbox_check.png) no-repeat;
+}
+.answer__btns {
+  float: right;
+}
+.answer__btns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.answer__btns .btn {
+  font-size: 17px;
+  line-height: 17px;
+  min-width: 140px;
+}
+.management__wrap {
+  margin: 0 auto;
+  width: 1150px;
+  padding-bottom: 110px;
+}
+.management__wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.management__h1 {
+  font-size: 40px;
+  margin: 0 ;
+  font-family: Scada-Bold;
+  color: #000;
+  padding-bottom: 33px;
+  text-align: left;
+}
+.management__block {
+  display: flex;
+  background: white;
+  margin-bottom: 25px;
+  padding: 30px;
+  min-height: 343px;
+}
+.management__photo {
+  flex: 0 0 200px;
+  margin-right: 30px;
+}
+.management__img {
+  width: 100%;
+}
+.management__title {
+  margin-bottom: 21px;
+}
+.management__title:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.management__title_mini {
+  margin-bottom: 10px;
+}
+.management__surname {
+  margin-right: .3em;
+  font-size: 31px;
+  line-height: 24px;
+  font-family: Scada-Bold;
+  float: left;
+}
+.management__surname_mini {
+  width: 100%;
+  font-size: 24px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+.management__name {
+  font-size: 31px;
+  line-height: 24px;
+  font-family: Scada-Bold;
+  float: left;
+}
+.management__name_mini {
+  width: 100%;
+  font-size: 24px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+.management__post {
+  display: inline-block;
+  padding: 6px 17px;
+  margin-bottom: 18px;
+  background-color: #eb5427;
+  color: #fff;
+  font-size: 22px;
+  font-family: Scada-Bold;
+  text-transform: uppercase;
+}
+.management__post_mini {
+  background-color: #01aeea;
+  font-size: 20px;
+  padding: 6px 15px 4px;
+  margin-bottom: 11px;
+}
+.management__text {
+  font-size: 17px;
+  font-family: Scada;
+  line-height: 1.6em;
+}
+.management__text_mini {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+.sweet-alert {
+  overflow: visible !important;
+}
+.sweet-alert .confirm {
+  position: absolute;
+  top: -76px;
+  right: -4px;
+  width: 0;
+  height: 0;
+}
+.sweet-alert .confirm:after,
+.sweet-alert .confirm:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+.sweet-alert .confirm:before {
+  transform: rotate(-45deg);
+}
+.sweet-alert .sa-confirm-button-container {
+  position: static !important;
+}
+.sweet-alert button {
+  display: inline-block;
+  background-color: transparent !important;
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 0 !important;
+  padding: 0 !important;
+}

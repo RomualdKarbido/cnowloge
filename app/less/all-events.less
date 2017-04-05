@@ -1,0 +1,146 @@
+.all-events {
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 110px;
+		.clearfix;  
+	}
+	&__search {
+		background: url(../../img/search-img.jpg) no-repeat;
+		background-size: cover;
+		padding: 35px 100px;
+		margin-bottom: 30px;
+		.clearfix; 
+
+		input[type=text] {
+			background-color: rgba( 255,255,255,1 );
+    		padding-left: 15px;
+    		&::-webkit-input-placeholder {color: #adadad;}
+    		&::-moz-placeholder          {color: #adadad;}
+    		&:-moz-placeholder           {color: #adadad;}
+    		&:-ms-input-placeholder      {color: #adadad;}
+		}
+	}
+	&__h1 {
+		margin: 0;
+		font-family: 'Scada-Bold';
+		font-size: 40px;
+		padding-bottom: 30px; 
+		line-height: 1;
+	}
+	&__item {
+		background: white; 
+		margin-bottom: @sp*2;
+		&_mini {
+			height: 138px;
+			margin-bottom: 10px;
+			padding: @sp;
+			display: block;
+			color: black;
+			&:hover {
+				text-decoration: none;
+			}
+			.news__data {
+				margin-bottom: 10px;
+			}
+			&-text {
+				height: 55px;
+				overflow: hidden;
+			}
+		}
+	}
+	&__img {
+		height: 200px;
+		position: relative;
+	}
+	&__info {
+		height: 230px;
+		.clearfix; 
+	}
+	&__data {
+		background: white; 
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 60px;
+		&-day {
+			font-family: 'Scada-bold';
+			font-size: 38px;
+			line-height: 1;
+			padding: 10px 0 10px;
+		}
+		&-month {
+			background: @blue;
+			color: white;
+			font-family: 'Scada-bold';
+			font-size: 20px;
+			padding: 2px 0;
+			text-transform: uppercase;
+		}
+	}
+	&__footer {
+		background: white;
+		padding: 20px 15px;
+		height: 235px;
+
+	} 
+	&__title {
+		font-family: 'Scada-bold';
+		display: block;
+		color: black;
+		height: 70px;
+		font-size: 15px;
+		line-height: 1.2;
+		&:hover {
+			
+			color: black;
+		}
+	}
+	&__autor, &__place {
+		font-family: 'Scada';
+		font-size: 14px;
+		color: black;
+		span {
+			color: #a1a1a1;
+		}
+	}
+	&__place {
+		margin-bottom: @sp;
+	}
+	&__value {
+		color: @red;
+		font-family: 'Scada-bold';
+		font-size: 17px;
+		display: inline-block;
+		margin: 0 25px 0 0 ;
+		i {
+			color: darken(@gray, 20%);
+			font-family: 'Scada';
+			font-size: 16px;
+		}
+		.icon-eye {
+			font-size: 12px;
+		}
+		&-wrap {
+			text-align: left;
+			margin-bottom: @sp;
+		}
+		&-rating {
+			
+			margin-top: 3px;
+
+		}
+		&-text {
+			color: darken(@gray, 40%);
+			font-family: 'Scada';
+			font-size: 14px;
+			margin-top: 25px;
+		}
+		&-btn {
+			margin-top: 35px;
+		}
+	}
+
+
+}

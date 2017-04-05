@@ -1,0 +1,45 @@
+.data-block {
+	margin-top: 10px;
+	&__wrap {
+		float: left;
+		width: 330px;
+	}
+	&__item {
+		width: 63px; 
+		float: left;
+		text-align: center;
+		&.active {
+			.data-block__data {
+				font-size: 40px;
+				margin-top: 24px;
+				color: black;
+				height: 31px;
+				font-family: 'Scada-bold';
+			}
+			.data-block__month {
+				font-size: 25px; 
+				color: black;
+				height: 25px;
+				font-family: 'Scada-bold';
+			}
+		}
+	}
+	&__data {
+		font-size: 22px;
+		margin-top: 40px;
+		line-height: 1;
+		color: #707070;
+		height: 19px;
+		font-family: 'Scada-bold';
+		
+	}
+	&__month {
+		font-size: 15px; 
+		font-family: 'Scada-bold';
+		line-height: 1;
+		color: #707070;
+		height: 15px;
+		
+		
+	}
+}

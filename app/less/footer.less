@@ -1,0 +1,98 @@
+.footer {
+	margin: -330px auto 0;
+	min-width: 1024px;
+	position: relative;  
+	&__before {
+		padding: 0 0 330px;
+	}
+	&__wrap {
+		margin: @sp*4 auto 0;
+		width: 1150px;
+	}
+	&__list {
+		&_right {
+			.footer__item {
+				padding-left: 35px;
+			}	
+		}
+	}
+	&__item {
+		margin-bottom: @sp/3;
+	}
+	&__link {
+		color: darken(@gray, 60%);
+		font-family: 'Scada';
+		font-size: 15px;
+		&:hover {
+			text-decoration: none;
+		}
+		&_spectacles {
+			position: relative;
+			&:before {
+				content: "\e916";
+				position: absolute;
+				left: -35px;
+				top: -7px;
+				font-family: 'icon';
+				font-size: 24px;
+			}
+		}
+	}
+	&__right {
+		position: relative;
+		padding-top: 76px;
+	}
+	&__logo {
+		position: absolute;
+		width: 276px;
+		height: 48px;
+		background: url(../../img/logo-footer.png) no-repeat top left;
+		top: 0;
+		left: -35px;
+	}
+	&__bottom {
+		height: 40px;
+		clear: both;
+	}
+	&__copy {
+		font-family: 'Scada';
+		font-size: 15px;
+		color: black;
+	}
+	&__soc {
+		a {
+			color: #cbcbcb;
+			margin-right:  35px;
+			transition: all 0.2s; 
+			vertical-align: midle;
+			&:hover {
+				text-decoration: none;
+			}
+			&:nth-child(1) {
+				font-size: 13px;
+				&:hover {
+					color: #5b7aa8;
+				}			
+			}
+			&:nth-child(2) {
+				font-size: 20px;
+				&:hover {
+					color: #3b5998;
+				}			
+			}
+			&:nth-child(3) {
+				font-size: 17px;
+				&:hover {
+					color: #41abe1;
+				}			
+			}
+			&:nth-child(4) {
+				font-size: 22px;
+				&:hover {
+					color: #eb722e;
+				}			
+			}
+		}
+	}
+
+}

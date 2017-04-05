@@ -1,0 +1,161 @@
+.staticpage {
+	.clearfix;
+	&__wrap {
+		margin: 0 auto;
+		width: 1150px;
+		padding-bottom: 110px;
+		padding-top: @sp*3;
+
+		
+	}
+	&__menu {
+		background: white;
+		.clearfix;
+		&-list {
+			padding: 20px 10px 5px;
+		}
+		&-item { 
+			font-size: 15px;
+			position: relative;
+			margin-bottom: 5px;
+			&.active {
+				.staticpage__menu-link {
+					background: @blue;
+					text-decoration: none;
+					color: white;
+				}
+			}
+		}
+		&-link {
+			padding: 5px @sp;
+			display: block;
+			text-transform: uppercase;
+			font-family: Scada-Bold; 
+			font-size: 17px;
+			transition: all 0.2s;
+			color: @blue;
+			&:hover {
+				text-decoration: none;
+				color: black;
+				border-radius: 2px;
+			}
+		}
+	}
+	&__content { 
+		.clearfix;
+		font-size: 15px;
+		font-family: Scada;
+		color: black;
+		padding-bottom: 130px;
+		p {
+			font-size: 15px;
+			font-family: Scada;
+			color: black;
+		}
+		strong {
+			font-family: Scada-Bold; 
+		}
+		h2 {
+			font-size: 40px;
+			margin: 0;
+			font-family: Scada-Bold;
+			margin-bottom: @sp*2;
+			color: black;
+		}
+		h3 {
+			font-size: 20px;
+			margin: 0;
+			font-family: Scada-Bold;
+			margin-bottom: @sp;
+			margin-top: @sp*2;
+		}
+		p {
+			margin-bottom: 30px;
+		}
+	}
+	&__quote {
+		margin-bottom: @sp*4;
+		padding-left: 70px;
+		position: relative;
+		line-height: 24px;
+		font-size: 15px;
+		font-family: Scada;
+		color: black;
+		&:before {
+			content:'';
+			width: 46px;
+			height: 46px;
+			background:url(../../img/quote-1.svg) no-repeat;
+			position: absolute;
+			top: -3px;
+			left: 0;
+		}
+		&-autor {
+			color: #a1a1a1;
+			margin-top: @sp*2;
+			text-align: right;
+		}
+	}
+	&__year {
+		font-size: 48px;
+		font-family: Scada-bold;
+		float: left;
+		height: 48px;
+		margin-top: -12px;
+		margin-right: @sp;
+		margin-bottom:  @sp;
+	}
+	&__list {
+		margin-left: 25px;
+		margin-bottom: @sp*3;
+	}
+	&__item {
+		list-style-type: none;
+		
+    	margin-bottom: @sp;
+    	&:before {
+    		content: "\2014\0020";
+    		padding-right: 10px;
+    		margin-left: -25px;
+    		
+    	}
+	}
+	&__like {
+		position: relative;
+		&-wrap {
+			display: block;
+			padding-left: 62px;
+			margin: 10px 0;
+		}
+		span {
+			color: white;
+			background: @blue;
+			text-transform: uppercase;
+			font-family: Scada-bold;
+			padding: 10px 15px 8px;
+			display: block;
+			line-height: 0.8;
+		}
+		&:before {
+			content: '';
+			width: 60px;
+			height: 60px;
+			background: @red;
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+		}
+		&:after {
+			content: '';
+			background: url(../../img/like-big.svg) center no-repeat;
+			background-size: 40px 40px;
+			width: 60px;
+			height: 60px;
+			position: absolute;
+			z-index: 2;
+			top: 0;
+			left: 0;
+		}
+	}
+}

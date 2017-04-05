@@ -1,0 +1,83 @@
+.event-block {
+	margin: 0 auto;
+	width: 1150px;
+	&__item {
+		margin-bottom: @sp;
+	}
+	&__img {
+		height: 260px;
+		background: red;
+		position: relative;
+		overflow: hidden;
+	}
+	&__data {
+		background: white; 
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 70px;
+		&-day {
+			font-family: 'Scada-bold';
+			font-size: 44px;
+			line-height: 1;
+			padding: 15px 0 10px;
+		}
+		&-month {
+			background: @blue;
+			color: white;
+			font-family: 'Scada-bold';
+			font-size: 22px;
+			padding: 5px 0;
+			text-transform: uppercase;
+		}
+	}
+	&__footer {
+		background: white;
+		padding: 20px 25px;
+
+	} 
+	&__title {
+		font-family: 'Scada-bold';
+		display: block;
+		color: black;
+		height: 75px;
+		font-size: 18px;
+		line-height: 1.2;
+		&:hover {
+			text-decoration: underline;
+			color: black;
+		}
+		&:visited {
+			color: black;
+		}
+	}
+	&__value {
+		color: @red;
+		font-family: 'Scada-bold';
+		font-size: 20px;
+		span {
+			color: #a1a1a1;
+			font-family: 'Scada';
+			font-size: 16px;
+		}
+	}
+	&__web-cam {
+		background: @red;
+		color: white;
+		position: absolute; 
+		top: 0;
+		right: 0;
+		font-size: 28px;
+		text-align: center;
+		width: 50px;
+		height: 50px;
+		line-height: 54px;
+		cursor: pointer;
+		&.available {
+			opacity: 0.7;
+			cursor: inherit;
+		}
+	}
+
+}

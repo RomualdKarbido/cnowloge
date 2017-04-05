@@ -1,0 +1,57 @@
+.feedback-events {
+	margin: 0 auto;
+	width: 1150px;
+	padding-bottom: 50px;
+	.clearfix;
+	
+	&__item {
+	}
+	&__img {
+		background-size: cover !important;
+		background: url('@{imageBase}no-photo.png') no-repeat center center;
+		border-radius: 50%;
+		height: 100px;
+		left: 20px;
+		position: absolute;
+		top: -10px;
+		width: 100px;
+	}
+	&__info {
+		position: relative;
+	}
+	&__name {
+		line-height: 1.1;
+	    font-family: Scada-bold;
+	    font-size: 17px;
+	    margin-left: 145px;
+	    margin-top: 0;
+	}
+	&__text {
+		border-bottom: 1px solid darken(@gray, 20%);
+		color: darken(@gray, 40%);
+		font-family: Scada-Italic; 
+		font-size: 15px;
+		margin: @sp*2 0 20px;
+		padding-bottom: 20px;
+		height: 165px;
+	}
+	&__data {
+		line-height: 1.1;
+	    color: @red;
+	    font-family: Scada-bold;
+	    font-size: 20px;
+	    margin-left: 145px;
+	    margin-top: @sp;
+	}
+	&__iventname {
+		font-family: Scada-bold;
+		font-size: 17px; 
+		line-height: 1.2;
+		&-type {
+			color: darken(@gray, 40%);
+			font-family: Scada; 
+			font-size: 14px; 
+			margin-bottom: @sp/3;
+		}
+	}
+}

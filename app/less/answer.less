@@ -1,0 +1,138 @@
+.answer {
+    padding-top: 48px;
+    background: @gray;
+    min-height: 780px;
+    display: flex;
+    justify-content: center; 
+    &__contentbox {
+        width: 657px;
+    }
+    h2 {
+        font-size: 40px;
+        margin: 0 0 26px;
+        font-family: Scada-Bold;
+        color: #000;
+        border-bottom: 2px #dddfe3 solid;
+        padding-bottom: 33px;
+        text-align: center;
+    }
+    &__block {
+        &_row {
+            width: 100%;
+            padding-top: 19px;
+            min-height: 28px;  
+            .clearfix;
+            &:first-child {
+                padding-top: 0;     
+            }
+            &:last-child {
+                margin-bottom: 35px;   
+            }
+            &_buttons {
+                margin-bottom: 0 !important;
+                .clearfix;
+            }
+        }
+    }
+    &__name {
+        float: left;
+        width: 12%;
+        text-align: right;
+        color: #a1a1a1;
+        font-family: ;
+        padding-right: 10px;
+        font-size:16px;
+        line-height: 1.7em;
+        font-family: 'Scada';
+        &_w {
+           float: left;
+           width: 60px;
+           text-align: right;
+           color: #a1a1a1;
+           font-family: ;
+           padding-right: 30px;
+           font-size:16px;
+           line-height: 1.7em;
+           font-family: 'Scada'; 
+        }
+    }
+    &__text {
+        float: left;
+        width: 87%;
+        padding-left: 10px;	
+        font-family: Scada-Bold;
+        color: #000;
+        font-size:19px;
+    }
+    &__block {
+        &_white {
+            background-color: #fff;
+            padding: @sp*2; 
+            &_row {
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+    &__textarea {
+        width: calc(~"100% - 60px");
+        height: 190px;
+        border:2px solid #dddfe3;
+        resize: none;
+        padding: 5px;
+        font-size: 16px;  
+        float: left;  
+    }
+    &__input {
+        display:none;
+    }
+    &__label {
+        display: inline-block;
+        padding-left: 60px;
+        font-family: Scada;
+        font-size: 16px; 
+        margin-top: 10px;   
+    }
+    &__input + label span {
+        display:inline-block;
+        width:19px;
+        height:19px;
+        margin:-1px 9px 0 0;
+        vertical-align:middle;
+        background:url(../../img/checkbox_oncheck.png) no-repeat;
+        cursor:pointer;
+    }
+    &__input:checked + label span {
+        background:url(../../img/checkbox_check.png) no-repeat;
+    }
+   
+
+    
+    &__btns {
+        float: right;
+        .clearfix;
+        .btn {
+            font-size: 17px;
+            line-height: 17px;
+            min-width: 140px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

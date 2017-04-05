@@ -1,0 +1,81 @@
+.news {
+	margin: 0 auto;
+	width: 1150px;
+	overflow: hidden;
+	padding-bottom: @sp*2;
+	&__title {
+		font-family: 'Scada-bold';
+		height: 130px;
+		margin: 0 auto;
+		width: 1150px;
+		overflow: hidden;
+		font-size: 40px;
+		line-height: 130px;
+	}
+	&__block {
+		padding-bottom: @sp*3;
+		a {
+			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	&__item {
+		margin-bottom: @sp;
+		overflow: hidden;
+		height: 360px;
+	}
+	&__name {
+		font-family: Scada-bold;
+	    display: block;
+	    color: #000;
+	    font-size: 18px;
+	    line-height: 1.2;
+	    overflow: hidden;
+	    margin-bottom: @sp;
+	}
+	&__data {
+		color: @red;
+		font-family: Scada-bold;
+		font-size: 15px;
+		.icon-clock {
+			margin-right: @sp/3;
+		}
+	}
+	&__text {
+		font-family: Scada;
+		font-size: 15px;
+		margin-bottom: @sp;
+		color: darken(@gray, 50%);
+	}
+	&__photo {
+			position: relative;
+			height: 360px;
+			display: block;
+			
+			.news__name {
+			    color: white;
+			    background-color: rgba(0, 0, 0, 0.7);
+			    position: absolute;
+			    bottom: 61px;
+			    padding: 20px;
+			    margin-bottom: 0;
+			    padding-bottom: 0;
+
+			}
+			.news__data {
+				background-color: rgba(0, 0, 0, 0.7);
+				position: absolute;
+				bottom: 0px;
+				left: 0;
+				right: 0;
+				padding: 20px 20px;
+				
+			}
+			.news__text {
+				display: none;
+			}
+		}
+
+}

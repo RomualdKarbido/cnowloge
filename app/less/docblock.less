@@ -1,0 +1,124 @@
+.docblock {
+	padding: @sp*2;
+	background: white;
+	&__title {
+		margin: 0;
+		margin-bottom: @sp;
+		color: #000;
+		font-family: Scada-bold;
+		font-size: 26px;
+		padding: 0 0 15px 0;
+		text-align: left;
+	}
+	&__list {
+		margin-bottom: @sp*3;
+	}
+	&__item {
+		border-bottom: 1px solid @gray;
+		border-top: 1px solid @gray;
+		margin-top: -1px;
+		padding: 10px 40px  10px 0;
+		font-family: Scada;
+		font-size: 15px;
+		position: relative;
+	}
+	&__pdf {
+		transition: all 02.s;
+		&:before {
+			content:'';
+			background: url('@{imageBase}file-pdf.svg') no-repeat;
+			display: block;
+			height: 20px;
+			position: absolute;
+			right: 0;
+			top: @sp;
+			width: 20px;
+		}
+	}
+	&__doc {
+		transition: all 02.s;
+		&:before {
+			content:'';
+			background: url('@{imageBase}file-w.svg') no-repeat;
+			display: block;
+			height: 20px;
+			position: absolute;
+			right: 0;
+			top: @sp;
+			width: 20px;
+		}
+	}
+	
+}
+.docblock-new {
+	border-top: 2px solid #dddfe3;
+	&__list {
+		
+	}
+	&__item {
+		padding: @sp;
+		padding-left: @sp*2;
+		border-bottom: 2px solid #dddfe3;
+		font-family: Scada;
+		position: relative;
+		span {
+			color: #a1a1a1;
+			font-size: 15px;
+		}
+		&_doc {
+			&:before {
+				content:'';
+				display: block;
+				background: url('@{imageBase}file-w.svg') no-repeat;
+				height: 18px;
+				position: absolute;
+				left: 0;
+				top: 17px;
+				width: 18px;
+			}
+		}
+		&_pdf {
+			&:before {
+				content:'';
+				display: block;
+				background: url('@{imageBase}file-pdf.svg') no-repeat;
+				height: 18px;
+				position: absolute;
+				left: 0;
+				top: 17px;
+				width: 18px;
+			}
+		}
+		&_img {
+			&:before {
+				content:'';
+				display: block;
+				background: url('@{imageBase}file-img.svg') no-repeat;
+				height: 18px;
+				position: absolute;
+				left: 0;
+				top: 17px;
+				width: 18px;
+			}
+		}
+	}
+	&__link {
+		color: black;
+		text-decoration: underline;
+		font-size: 17px;
+		font-family: Scada;
+		&:hover {
+			color: @blue;
+			text-decoration: none;
+		}
+		&:visited {
+			color: black;
+			text-decoration: underline;
+		}
+		&:visited:hover {
+			color: @blue;
+			text-decoration: none;
+		}
+
+	}
+}
